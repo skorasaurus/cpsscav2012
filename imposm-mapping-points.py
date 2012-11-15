@@ -67,13 +67,6 @@ class Highway(LineStrings):
         ('area', Bool()),
     )
 
-treasure = Points(
-   name = 'treasure',
-   mapping = {
-      ('tre', Integer()),
-   } 
-),
-
 places = Points(
     name = 'places',
     mapping = {
@@ -120,6 +113,36 @@ admin = Polygons(
         ('admin_level', OneOfInt('1 2 3 4 5 6 7 8'.split())),
     ),
 )
+
+
+treasure = Points(
+    name='treasure',
+    fields = (
+        ('tre', Integer()),
+    ),
+        mapping = {
+        'tre': (
+            '__any__',
+        ),
+})
+
+
+amenities = Points(
+    name='amenities',
+    mapping = {
+        'amenity': (
+            'university',
+            'school',
+            'library',
+            'fuel',
+            'hospital',
+            'fire_station',
+            'police',
+            'townhall',
+        ),
+    }
+)
+
 
 motorways = Highway(
     name = 'motorways',
@@ -183,6 +206,8 @@ minorroads = Highway(
     )}
 )
 
+
+
 transport_points = Points(
     name = 'transport_points',
     fields = (
@@ -232,6 +257,8 @@ railways = LineStrings(
             'monorail',
     )}
 )
+
+
 
 waterways = LineStrings(
     name = 'waterways',
