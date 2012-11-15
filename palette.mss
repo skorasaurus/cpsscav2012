@@ -155,11 +155,10 @@ Map { font-directory: url(./fonts); }
   marker-line-color:#813;
   marker-allow-overlap:true;
   marker-opacity: .65;
-  [zoom = 16] {  marker-width:6; }
   [zoom = 16] {  marker-width:12; }
   [zoom = 17] {  marker-width:18; }
   [zoom = 18] {  marker-width:24; }
-
+  [zoom = 19] {  marker-width:30; }
 }
 
 #border {
