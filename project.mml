@@ -692,9 +692,9 @@
       "status": "on"
     }
   ],
-  "scale": 1.3,
+  "scale": 1,
   "metatile": 2,
-  "attribution": "Data © OpenStreetMap (and) contributors, CC-BY-SA",
+  "attribution": "Data © OpenStreetMap (and) contributors, ODBL",
   "description": "",
-  "name": "CPSscav2012"
+  "name": "CPS Scavenger Hunt 2012 "
 }
