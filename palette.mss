@@ -151,10 +151,15 @@ Map { font-directory: url(./fonts); }
 
 
 #locations {
-  marker-width:6;
   marker-fill:#f45;
   marker-line-color:#813;
   marker-allow-overlap:true;
+  marker-opacity: .65;
+  [zoom = 16] {  marker-width:6; }
+  [zoom = 16] {  marker-width:12; }
+  [zoom = 17] {  marker-width:18; }
+  [zoom = 18] {  marker-width:24; }
+
 }
 
 #border {
@@ -162,3 +167,9 @@ Map { font-directory: url(./fonts); }
   line-opacity: .65;  
     }
   
+
+#location-labels {
+ text-face-name: "Archer Bold";
+ text-name: "[tre]"; 
+text-allow-overlap: true;
+}
