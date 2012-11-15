@@ -156,3 +156,9 @@ Map { font-directory: url(./fonts); }
   marker-line-color:#813;
   marker-allow-overlap:true;
 }
+
+#border {
+  line-width: 4;
+  line-opacity: .65;  
+    }
+  

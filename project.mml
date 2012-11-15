@@ -120,7 +120,7 @@
         "key_field": "",
         "password": "postgres",
         "port": "5432",
-        "project": "osm-bright-imposm",
+        "project": "cpsscav2012",
         "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
         "table": "( SELECT geometry, type, area\n  FROM osm_landusages\n  ORDER BY area DESC\n) AS data",
         "type": "postgis",
@@ -710,7 +710,10 @@
         "host": "localhost",
         "port": "5432",
         "user": "postgres",
-        "password": "postgres"
+        "password": "postgres",
+        "id": "locations",
+        "project": "cpsscav2012",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
       },
       "id": "locations",
       "class": "",
@@ -718,6 +721,36 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "advanced": {},
       "name": "locations"
+    },
+    {
+      "extent": [
+        -81.70945334726245,
+        41.488122349638914,
+        -81.67752131365648,
+        41.51647539440883
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "( SELECT geometry, area\n  FROM osm_border\n  ORDER BY area DESC\n) AS data",
+        "key_field": "",
+        "geometry_field": "geometry",
+        "extent_cache": "auto",
+        "extent": "-9095854.739614,5084608.4010546,-9092300.08189299,5088822.74717327",
+        "dbname": "cpsscav2012",
+        "host": "localhost",
+        "port": "5432",
+        "user": "postgres",
+        "password": "postgres",
+        "id": "border",
+        "project": "cpsscav2012",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "id": "border",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "border"
     }
   ],
   "scale": 1,

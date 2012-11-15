@@ -126,6 +126,18 @@ treasure = Points(
         ),
 })
 
+border = Polygons(
+    name = 'border',
+    fields = (
+        ('area', PseudoArea()),
+    ),
+    mapping = {
+        'border': (
+            'boundary',
+        ),
+    }
+)
+
 
 amenities = Points(
     name='amenities',
