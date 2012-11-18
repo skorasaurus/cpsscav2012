@@ -18,7 +18,9 @@
 /* ================================================================== */
 
 /* directory to load fonts from in addition to the system directories */
-Map { font-directory: url(./fonts); }
+Map { 
+ background-color: #aaa; 
+ font-directory: url(./fonts); }
 
 /* set up font sets for various weights and styles */
 @sans_lt:           "Open Sans Regular","DejaVu Sans Book","unifont Medium";
@@ -161,7 +163,14 @@ Map { font-directory: url(./fonts); }
   [zoom = 19] {  marker-width:30; }
 }
 
+/* http://mapbox.com/blog/customizing-geography-class/ 
+direction taken from: */ 
+
+/* */
+
 #border {
+  opacity: 0.5;
+ polygon-comp-op: dst-over;
   line-width: 4;
   line-opacity: .65;  
     }
