@@ -56,7 +56,6 @@ Map {
 @residential:       @land * 0.98;
 @commercial:        @land * 0.97;
 @industrial:        @land * 0.96;
-@parking:           #EEE;
 
 /* ================================================================== */
 /* ROAD COLORS
@@ -168,12 +167,7 @@ direction taken from: */
 
 /* */
 
-#border {
-  opacity: 0.5;
- polygon-comp-op: dst-over;
-  line-width: 4;
-  line-opacity: .65;  
-    }
+
   
 
 #location-labels {

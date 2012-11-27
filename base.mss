@@ -25,12 +25,10 @@
   [type='commercial']    { polygon-fill: @industrial; }
   [type='common']        { polygon-fill: @park; }
   [type='forest']        { polygon-fill: @wooded; }
-  [type='golf_course']   { polygon-fill: @sports; }
   [type='grass']         { polygon-fill: @grass; }
   [type='hospital']      { polygon-fill: @hospital; }
   [type='industrial']    { polygon-fill: @industrial; }
   [type='park']          { polygon-fill: @park; }
-  [type='parking']       { polygon-fill: @parking; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
   [type='pitch']         { polygon-fill: @sports; }
   [type='residential']   { polygon-fill: @residential; }
@@ -202,3 +200,10 @@ Map { background-color: @water; }
   line-color:darken(@park,5);
 
 }
+
+#border {
+  opacity: 0.5;
+ polygon-comp-op: dst-atop;
+  line-width: 4;
+  line-opacity: .65;  
+    }

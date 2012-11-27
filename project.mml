@@ -575,7 +575,7 @@
     {
       "Datasource": {
         "dbname": "thecleve",
-        "extent": "-20037508.34 -20037508.34 20037508.34 20037508.34",
+        "extent": "-20037508.34,-20037508.34,20037508.34,20037508.34",
         "geometry_field": "geometry",
         "host": "localhost",
         "id": "landuse_label",
@@ -584,9 +584,10 @@
         "port": "5432",
         "project": "foss4g-2011",
         "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-        "table": "( SELECT type, name, area, 'land' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_landusages\n  WHERE name IS NOT NULL\n    AND geometry && !bbox!\n    AND type IN (\n      'cemetery', 'college', 'commercial', 'common', 'garden', 'golf_course',\n      'hospital', 'industrial', 'library', 'park', 'pedestrian', 'place_of_worship',\n      'playground', 'school', 'sports_center', 'stadium', 'theatre', 'university' )\n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  UNION ALL\n\n  SELECT type, name, area, 'water' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_waterareas\n  WHERE name IS NOT NULL\n    AND type in ( 'water', 'basin' )\n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  UNION ALL\n\n  SELECT 'building' AS type, name, area, 'building' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_buildings\n  WHERE name IS NOT NULL \n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  ORDER BY area DESC\n) AS data",
+        "table": "( SELECT type, name, area, 'land' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_landusages\n  WHERE name IS NOT NULL\n    AND geometry && !bbox!\n    AND type IN (\n      'cemetery', 'college', 'common', \n   'industrial', 'library', 'park', 'pedestrian', 'place_of_worship',\n      'playground', 'school', 'sports_center', 'stadium', 'theatre', 'university' )\n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  UNION ALL\n\n  SELECT type, name, area, 'water' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_waterareas\n  WHERE name IS NOT NULL\n    AND type in ( 'water', 'basin' )\n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  UNION ALL\n\n  SELECT 'building' AS type, name, area, 'building' AS stylegroup,\n    ST_PointOnSurface(geometry) AS geometry\n  FROM osm_buildings\n  WHERE name IS NOT NULL \n    AND geometry && !bbox!\n    AND ST_IsValid(geometry)\n\n  ORDER BY area DESC\n) AS data",
         "type": "postgis",
-        "user": "postgres"
+        "user": "postgres",
+        "extent_cache": "auto"
       },
       "class": "",
       "geometry": "point",
@@ -594,7 +595,14 @@
       "name": "area_label",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "srs-name": "900913",
-      "status": "on"
+      "status": "on",
+      "extent": [
+        -179.9999999749438,
+        -85.051,
+        179.9999999749438,
+        85.051
+      ],
+      "advanced": {}
     },
     {
       "Datasource": {
