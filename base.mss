@@ -202,8 +202,10 @@ Map { background-color: @water; }
 }
 
 #border {
-  opacity: 0.5;
- polygon-comp-op: dst-atop;
   line-width: 4;
-  line-opacity: .65;  
+  line-opacity: .65; 
+  polygon-opacity:1;
+  opacity:.9;
+  image-filters:agg-stack-blur(10,10);
+  comp-op:dst-atop;
     }
