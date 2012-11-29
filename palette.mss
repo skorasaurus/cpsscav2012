@@ -19,7 +19,7 @@
 
 /* directory to load fonts from in addition to the system directories */
 Map { 
- background-color: #aaa; 
+background-color: #aaa;
  font-directory: url(./fonts); }
 
 /* set up font sets for various weights and styles */
@@ -147,26 +147,16 @@ Map {
 
 /* ****************************************************************** */
 
-
-
-
-
 #locations {
   marker-fill:#f45;
   marker-line-color:#813;
   marker-allow-overlap:true;
-  marker-opacity: .65;
-  [zoom = 16] {  marker-width:12; }
-  [zoom = 17] {  marker-width:18; }
-  [zoom = 18] {  marker-width:24; }
-  [zoom = 19] {  marker-width:30; }
+  marker-opacity: .68;
+  [zoom = 16] {  marker-width:18; }
+  [zoom = 17] {  marker-width:26; }
+  [zoom = 18] {  marker-width:32; }
+  [zoom = 19] {  marker-width:34; }
 }
-
-/* http://mapbox.com/blog/customizing-geography-class/ 
-direction taken from: */ 
-
-/* */
-
 
   
 

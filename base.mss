@@ -202,10 +202,16 @@ Map { background-color: @water; }
 }
 
 #border {
-  line-width: 4;
-  line-opacity: .65; 
+   ::outline {
+    line-color: #999;
+    line-width: 4;
+    line-opacity: .47;
+    line-join: round;
+    line-comp-op:multiply;
+  }
+  line-opacity: .95; 
   polygon-opacity:1;
-  opacity:.9;
+  opacity:.83;
   image-filters:agg-stack-blur(10,10);
   comp-op:dst-atop;
     }
