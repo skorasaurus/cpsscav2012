@@ -40,7 +40,7 @@ background-color: #aaa;
 /* ================================================================== */
 
 @land:              #FCFBE7;
-@water:             #C4DFF6;
+@water:             #B7DBDB;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #DAF2C1;
