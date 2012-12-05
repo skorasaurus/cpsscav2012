@@ -27,14 +27,13 @@
   [type='forest']        { polygon-fill: @wooded; }
   [type='grass']         { polygon-fill: @grass; }
   [type='hospital']      { polygon-fill: @hospital; }
-  [type='industrial']    { polygon-fill: @industrial; }
   [type='park']          { polygon-fill: @park; }
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
-  [type='pitch']         { polygon-fill: @sports; }
+  [type='pitch']         { polygon-fill: @park; }
   [type='residential']   { polygon-fill: @residential; }
   [type='school']        { polygon-fill: @school; }
   [type='sports_center'] { polygon-fill: @sports; }
-  [type='stadium']       { polygon-fill: @sports; }
+  [type='stadium']       { polygon-fill: @park; }
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
 }
