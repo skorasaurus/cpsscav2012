@@ -2,33 +2,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+      <script src='wax/ext/modestmaps.min.js' type='text/javascript'></script>
+    <script src='wax/dist/wax.mm.js' type='text/javascript'></script>
+    <link href='wax/theme/controls.css' rel='stylesheet' type='text/css' />
   <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
   <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
   <style>
     body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
 </head>
 <body>
 
 
-<div id='map'></div>
+<div id='modestmaps-setup'></div>
 <script>
-// $('#map').mapbox('examples.map-8j8lv902', function(map, tilejson) {
-   // m.ui.attribution.add() 
-     //  .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+// example from http://mapbox.com/wax/#making-your-first-map 
+  var url = 'http://a.tiles.mapbox.com/v3/skorasaurus.cpsscav2012.jsonp';
+wax.tilejson(url, function(tilejson) {
+    // Set up a map in a div with the id 'modestmaps-setup'
+    var m = new MM.Map('modestmaps-setup',
+      // Use Wax's connector to add a new custom layer
+      new wax.mm.connector(tilejson),
+      // And it'll be 240px by 120px
+      new MM.Point(400,800));
 
-
-// from: http://mapbox.com/mapbox.js/example/interactive-layer/
-mapbox.load('skorasaurus.cpsscav2012', function(o) {
-        var map = mapbox.map('map');
-        map.addLayer(o.layer).zoom(15).center({ lat: 41.5010, lon: -81.6882 });
-        map.interaction.auto();
-
-     // Attribute map
-        map.ui.attribution.add()
-            .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
-        });
+    m.setCenterZoom({ lat: 41.5010, lon: -81.6882}, 15);
+});
 </script>
    
 </body>
