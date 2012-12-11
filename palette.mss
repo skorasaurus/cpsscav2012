@@ -39,7 +39,7 @@ background-color: #aaa;
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FCFBE7;
+@land:              #FFFCAB;
 @water:             #B7DBDB;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
@@ -79,12 +79,17 @@ background-color: #aaa;
 @trunk_case:        @trunk_line * 0.9;
 
 @primary_line:      @motorway_line;
-@primary_fill:      lighten(@motorway_line,40%);
+@primary_fill:      lighten(@motorway_line,20%);
 @primary_case:      @primary_line * 0.9;
 
 @secondary_line:    #FFE873;
-@secondary_fill:    lighten(@motorway_line,40%);
+@secondary_fill:    lighten(@motorway_line,20%);
 @secondary_case:    @motorway_line * 0.9;
+
+@tertiary_line:    #FFE873;
+@tertiary_fill:    lighten(@motorway_line,20%);
+@tertiary_case:    @motorway_line * 0.9;
+
 
 @standard_line:     @land * 0.85;
 @standard_fill:     #fff;

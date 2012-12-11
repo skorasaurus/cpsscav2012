@@ -97,6 +97,11 @@ come in as well.
     line-color: @secondary_case;
     [bridge=1] { line-color: @secondary_case * 0.8; }
   }
+   [type='tertiary'],
+  [type='tertiary_link'] {
+    line-color: @tertiary_case;
+    [bridge=1] { line-color: @tertiary_case * 0.8; }
+  }
   [stylegroup='railway'] {
     line-color: fadeout(@land,50%);
     [bridge=1] { line-color: @secondary_case * 0.8; }
@@ -198,6 +203,11 @@ come in as well.
   [type='secondary_link'] {
     line-color: @secondary_fill;
     [tunnel=1] { line-color: lighten(@secondary_fill, 10%); }
+  }
+  [type='tertiary'],
+  [type='tertiary_link'] {
+    line-color: @tertiary_fill;
+    [tunnel=1] { line-color: lighten(@tertiary_fill, 10%); }
   }
   [stylegroup='railway'] {
     line-color: @rail_line;
