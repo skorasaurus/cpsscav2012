@@ -23,8 +23,8 @@ wax.tilejson(url, function(tilejson) {
     var m = new MM.Map('modestmaps-setup',
       // Use Wax's connector to add a new custom layer
       new wax.mm.connector(tilejson),
-      // And it'll be 240px by 120px
-      new MM.Point(400,800));
+      // And i
+      new MM.Point(400,400));
 
     m.setCenterZoom({ lat: 41.5010, lon: -81.6882}, 15);
 });
