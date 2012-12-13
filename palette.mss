@@ -39,7 +39,7 @@ background-color: #aaa;
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FFFCAB;
+@land:              #EEE6BC;
 @water:             #B7DBDB;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
@@ -92,7 +92,7 @@ background-color: #aaa;
 
 
 @standard_line:     @land * 0.85;
-@standard_fill:     #fff;
+@standard_fill:     lighten(@motorway_line,80%); /* was white #fff */
 @standard_case:     @land * 0.9;
 
 @pedestrian_line:   @standard_line;
