@@ -9,10 +9,49 @@
   <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
   <style>
     body { margin:0; padding:0; }
+
+    
+     /*SIDEBAR - where the list of markers will be  */
+#sidebar {
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:#fff;
+  z-index:999;
+  overflow:auto;
+  opacity:0.6;
+  }
+#sidebar:hover { opacity:1; }
+#timeline {
+  padding:10px;
+  }
+#timeline a {
+  font-size:10px;
+  text-decoration:none;
+  }
+#timeline #controls {
+  position:absolute;
+  top:15px;
+  right:15px;
+  }
+#timeline #controls a {
+  font-size:20px;
+  color:#DC1438;
+  margin-left:10px;
+  }
+a.year-active {
+  color:#DC1438;
+  }
   </style>
 </head>
 <body>
 
+<div id='sidebar'>
+  <div id='timeline'>
+      <div id='controls'></div>
+    <h2>Cleve scavenger hunt <small>2012</small></h2>
+  </div>
+</div>
 
 <div id='modestmaps-setup'></div>
 <script>
