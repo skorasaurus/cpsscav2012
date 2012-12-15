@@ -5,13 +5,15 @@
       <script src='wax/ext/modestmaps.min.js' type='text/javascript'></script>
     <script src='wax/dist/wax.mm.js' type='text/javascript'></script>
     <link href='wax/theme/controls.css' rel='stylesheet' type='text/css' />
-  <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
-  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
   <style>
     body { margin:0; padding:0; }
-
-    
-     /*SIDEBAR - where the list of markers will be  */
+</style>
+</head>
+<body>
+<style>
+   /*SIDEBAR - where the list of markers will be  */
 #sidebar {
   position:absolute;
   top:0px;
@@ -43,8 +45,6 @@ a.year-active {
   color:#DC1438;
   }
   </style>
-</head>
-<body>
 
 <div id='sidebar'>
   <div id='timeline'>
@@ -55,11 +55,6 @@ a.year-active {
 
 <div id='modestmaps-setup'></div>
 <script>
-
-
-
-
-
 // example from http://mapbox.com/wax/#making-your-first-map 
   var url = 'http://a.tiles.mapbox.com/v3/skorasaurus.cpsscav2012.jsonp';
 wax.tilejson(url, function(tilejson) {
@@ -81,6 +76,7 @@ wax.tilejson(url, function(tilejson) {
   var markerLayer = mapbox.markers.layer()
       // this is a quick optimization - otherwise all markers are briefly displayed
       // before filtering to 2001
+      .filter(function() { return false })
       .url('../layers/locations.geojson', function(err, features) {
 
       // A closure for clicking years. You give it a year, and it returns a function
@@ -112,7 +108,7 @@ wax.tilejson(url, function(tilejson) {
           tre_links = [];
 
       for (var i = 0; i < features.length; i++) {
-          years[features[i].properties.year] = true;
+          years[features[i].properties.tre] = true;
       }
 
       for (var y in years) yearlist.push(y);
