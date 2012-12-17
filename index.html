@@ -64,6 +64,8 @@ wax.tilejson(url, function(tilejson) {
       // And i
       new MM.Point(800,800));
     m.setCenterZoom({ lat: 41.5010, lon: -81.6922}, 15);
+    // sets the allowable zoom range, this ignores what is available in your tilemill project
+    m.setZoomRange(15, 19);
 });
 
 
