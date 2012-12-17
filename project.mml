@@ -11,7 +11,10 @@
     15
   ],
   "format": "png8",
-  "interactivity": false,
+  "interactivity": {
+    "layer": "locations",
+    "template_teaser": "Name: <strong>{{{name}}}</strong><br>\nItem #: <strong>{{{tre}}}</strong> <br>\n\nImage: Forthcoming."
+  },
   "minzoom": 15,
   "maxzoom": 19,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
@@ -710,8 +713,8 @@
       ],
       "Datasource": {
         "type": "postgis",
-        "table": "(SELECT tre, geometry FROM osm_treasure) AS booty",
-        "key_field": "",
+        "table": "(SELECT tre, geometry, name, osm_id FROM osm_treasure) AS booty",
+        "key_field": "osm_id",
         "geometry_field": "",
         "extent_cache": "auto",
         "extent": "-9095204.99561733,5084709.19758014,-9092417.36270827,5088053.69955065",
@@ -794,5 +797,6 @@
   "metatile": 2,
   "attribution": "Map Data © OpenStreetMap (and) contributors, ODBL",
   "description": "Cleveland Photography Society Scavenger Hunt 2012 - http://photos.clevelandphoto.org/",
-  "name": "CPS Scavenger Hunt 2012 "
+  "name": "CPS Scavenger Hunt 2012 ",
+  "legend": ""
 }
