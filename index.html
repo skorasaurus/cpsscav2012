@@ -66,8 +66,13 @@ wax.tilejson(url, function(tilejson) {
     m.setCenterZoom({ lat: 41.5010, lon: -81.6922}, 15);
     // sets the allowable zoom range, this ignores what is available in your tilemill project
     m.setZoomRange(15, 19); 
-  //  m.addLayer(markerLayer);  // verify if this MM sintax is correct.
+
+    // Add the layer of markers, will be invisible, to allow for tooltip interactivity 
+   m.addLayer(markerLayer);  // verify if this MM sintax is correct.
 });
+
+
+ 
 
 
   var timeline = document.getElementById('timeline'),
@@ -77,26 +82,16 @@ wax.tilejson(url, function(tilejson) {
       // this is a quick optimization - otherwise all markers are briefly displayed
       // before filtering to 2001
       .filter(function() { return false })
-      .url('../layers/locations.geojson', function(err, features) {
-
-      // A closure for clicking years. You give it a year, and it returns a function
-      // that, when run, clicks that year. It's this way in o
+      .url('../layers/locations.geojson') //function(err, features) {
 
 
- // A closure for clicking years. You give it a year, and it returns a function
-      // that, when run, clicks that year. It's this way in order to be used as both an
-      // event handler and run manually.
-      function click_year(y) {
-          return function() {
-              var active = document.getElementsByClassName('year-active');
-              if (active.length) active[0].className = '';
-              document.getElementById('y' + y).className = 'year-active';
-              markerLayer.filter(function(f) {
-                  return f.properties.year == y;
-              });
-              return false;
-          };
-      }
+  // begins to implement the interaction for marker 
+     mapbox.markers.interaction(markerLayer); 
+      
+
+
+ // TO ADD: style what the text box will look like when user clicks on that particular marker.  
+
 
 // Vars
 // WAS years - 
@@ -113,7 +108,7 @@ wax.tilejson(url, function(tilejson) {
 
 // to sort the trelist 
       for (var y in years) trelist.push(y);
-      yearlist.sort();
+      trelist.sort();
 
       for (var i = 0; i < trelist.length; i++) {
           var a = timeline.appendChild(document.createElement('a'));
