@@ -9,11 +9,14 @@
   <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
   <style>
     body { margin:0; padding:0; }
+     #mapsetup {position:absolute; top:0; bottom:0; width:100%; }
+
 </style>
 </head>
 <body>
 <style>
    /*SIDEBAR - where the list of markers will be */
+   /*from http://mapbox.com/mapbox.js/example/timeline/ */
 #sidebar {
   position:absolute;
   top:0px;
@@ -52,22 +55,13 @@ a.year-active {
   </div>
 </div>
 
-<div id='modestmaps-setup'></div>
+<div id='mapsetup'></div>
 <script>
-// example from http://mapbox.com/wax/#making-your-first-map
-  var url = 'http://a.tiles.mapbox.com/v3/skorasaurus.cpsscav2012.jsonp';
-wax.tilejson(url, function(tilejson) {
-    // Set up a map in a div with the id 'modestmaps-setup'
-    var m = new MM.Map('modestmaps-setup',
-      // Use Wax's connector to add a new custom layer
-      new wax.mm.connector(tilejson),
-      // And i
-      new MM.Point(800,800));
-    m.setCenterZoom({ lat: 41.5010, lon: -81.6922}, 15);
-    // sets the allowable zoom range, this ignores what is available in your tilemill project
-    m.setZoomRange(15, 19);
-  // m.addLayer(markerLayer); // verify if this MM sintax is correct.
-});
+ // Create map from http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
+    var map = mapbox.map('mapsetup');
+    map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012'));
+  map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
+  map.setZoomRange(15, 19);
 
 
   var timeline = document.getElementById('timeline'),
@@ -78,10 +72,7 @@ wax.tilejson(url, function(tilejson) {
       // before filtering to 2001
       .filter(function() { return false })
       .url('../layers/locations.geojson', function(err, features) {
-
-      // A closure for clicking years. You give it a year, and it returns a function
-      // that, when run, clicks that year. It's this way in o
-
+  map.addLayer(markerLayer);
 
  // A closure for clicking years. You give it a year, and it returns a function
       // that, when run, clicks that year. It's this way in order to be used as both an
@@ -127,6 +118,5 @@ wax.tilejson(url, function(tilejson) {
 
 
 </script>
-   
 </body>
 </html>
