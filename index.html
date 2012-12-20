@@ -91,8 +91,16 @@ a.year-active {
       }
 
 
-      // to start easey links
+// easing links so that when user clicks on the # in list, pass the coordinates from the properties for each feature into map.ease.location({
 
+  // perhaps like: map.ease.location({ lat: 43.6, lon: -79.4 }).zoom(18).optimal();
+
+
+
+// For interaction when user clicks on point, tooltips, displaying more information 
+mapbox.markers.interaction(markersLayer);
+
+[features[i].properties.tre]
 
 // Vars
 // WAS years -
