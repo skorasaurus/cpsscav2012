@@ -123,14 +123,19 @@ a.year-active {
 
 // http://mapbox.com/mapbox.js/api/v0.6.7/#interaction.formatter
 // and http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
-mapbox.markers.interaction(markersLayer); 
+mapbox.markers.interaction(markerLayer); 
+interaction.showOnHover(true);
+
 interaction.formatter(function(feature) {
     var o = '', props = feature.properties;
     if (props.tre) {
-        o += '<h1>">' + props.tre + '</h1>';
+        o += '<h1>' + props.tre + '</h1>';
     }
     if (props.name) {
         o += '<h2>' + props.name + '</h2>';
+    }
+    if (props.notes) {
+        o += '<h2>' + props.notes + '</h2>';
     }
     if (typeof html_sanitize !== undefined) {
         o = html_sanitize(o,
@@ -141,6 +146,7 @@ interaction.formatter(function(feature) {
     }
     return o;
     });
+
 
 // http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
 
