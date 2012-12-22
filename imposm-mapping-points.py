@@ -116,15 +116,17 @@ admin = Polygons(
 
 
 treasure = Points(
-    name='treasure',
+    name = 'treasure',
     fields = (
         ('tre', Integer()),
+        ('imgurl', String()),
     ),
         mapping = {
         'tre': (
             '__any__',
         ),
-})
+    }
+)
 
 border = Polygons(
     name = 'border',
