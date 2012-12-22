@@ -1,19 +1,19 @@
 {
   "bounds": [
-    -81.7101,
-    41.4865,
-    -81.6765,
-    41.5179
+    -81.7102,
+    41.4875,
+    -81.6767,
+    41.5174
   ],
   "center": [
-    -81.6882,
-    41.501,
+    -81.6917,
+    41.5007,
     15
   ],
   "format": "png8",
   "interactivity": {
     "layer": "locations",
-    "template_teaser": "Item #: <strong>{{{tre}}}</strong> <br>\n\nImage: Forthcoming. <img src=\"{{imgurl}}\">",
+    "template_teaser": "Photo #: <strong>{{{tre}}}</strong> <br>\n\nImage: Forthcoming. <img src=\"{{imgurl}}\">",
     "fields": [
       "tre",
       "imgurl",
