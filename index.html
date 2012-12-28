@@ -84,14 +84,14 @@ a.year-active {
               if (active.length) active[0].className = '';
               document.getElementById('y' + y).className = 'year-active';
               markerLayer.filter(function(f) {
-                  return f.properties.year == y;
+              return f.properties.tre == y;
+              y.map.ease.location({lat: feature.geometry.coordinates[1], lon: feature.geometry.coordinates[0]});
               });
               return false;
           };
       }
 
 
-      // to start easey links
 
 
 // Vars
@@ -125,6 +125,30 @@ map.interaction.auto();
 interaction.showOnHover(true);
   map.ui.attribution.add()
       .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
+
+      // to start easey links
+
+// years[features[i].properties.tre]
+
+
+// to set the 
+
+//  document.getElementById('toronto').onclick = function() {
+//     map.ease.location({ lat: 43.6, lon: -79.4 }).zoom(10).optimal();
+//     return false;
+//   }
+
+//   document.getElementById('chicago').onclick = function() {
+//     map.ease.location({ lat: 41.9, lon: -87.6 }).zoom(10).optimal();
+//     return false;
+//   }
+
+//   document.getElementById('dc').onclick = function() {
+//     map.ease.location({ lat: 38.9, lon: -77 }).zoom(10).optimal();
+//     return false;
+//   }
+
+
 
 </script>
 </body>
