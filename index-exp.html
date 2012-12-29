@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+      <script src='wax/ext/modestmaps.min.js' type='text/javascript'></script>
+    <script src='wax/dist/wax.mm.js' type='text/javascript'></script>
+    <link href='wax/theme/controls.css' rel='stylesheet' type='text/css' />
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+     #mapsetup {position:absolute; top:0; bottom:0; width:100%; }
+
+</style>
+</head>
+<body>
+<style>
+   /*SIDEBAR - where the list of markers will be */
+   /*from http://mapbox.com/mapbox.js/example/timeline/ */
+#sidebar {
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:#fff;
+  z-index:999;
+  overflow:auto;
+  opacity:0.6;
+  }
+#sidebar:hover { opacity:1; }
+#timeline {
+  padding:10px;
+  right:15px;
+  }
+#timeline a {
+  font-size:10px;
+  text-decoration:none;
+  }
+#timeline #controls {
+  position:absolute;
+  top:15px;
+  }
+#timeline #controls a {
+  font-size:20px;
+  color:#DC1438;
+  margin-left:10px;
+  }
+a.year-active {
+  color:#DC1438;
+  }
+  </style>
+
+<div id='sidebar'>
+  <div id='timeline'>
+    <h2>Cleveland Photography Society's 2012 Photo Scavenger Hunt <small>Presented by: Sponsors</small></h2>
+  </div>
+</div>
+
+<div id='mapsetup'></div>
+<script>
+ // Create map from http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
+    var map = mapbox.map('mapsetup');
+    map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012'));
+  map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
+  map.setZoomRange(15, 19);
+
+
+  var timeline = document.getElementById('timeline'),
+      controls = document.getElementById('controls');
+
+  var markerLayer = mapbox.markers.layer()
+      .url('../layers/locations.geojson', function(err, features) {
+  map.addLayer(markerLayer);
+
+
+ // A closure for clicking years. You give it a year, and it returns a function
+      // that, when run, clicks that year. It's this way in order to be used as both an
+      // event handler and run manually.
+
+      // when user clicks year, they are zoominto the location
+      function click_year(y) {
+          return function() {
+              map.ease.location({lat: y.geometry.coordinates[1], lon: y.geometry.coordinates[0]}).zoom(17).optimal();
+              markerLayer.filter(function(f) {
+              return f.properties.tre == y;
+              });
+              return false;
+          };
+      }
+
+
+
+
+// Vars
+// WAS years -
+// WAS yearlist - trelist
+// WAS year_links - tre_links
+
+      var years = {},
+          trelist = [],
+          tre_links = [];
+
+      for (var i = 0; i < features.length; i++) {
+          years[features[i].properties.tre] = true;
+      }
+
+// to sort the trelist
+      for (var y in years) trelist.push(y);
+      trelist.sort();
+
+      for (var i = 0; i < trelist.length; i++) {
+          var a = timeline.appendChild(document.createElement('a'));
+          a.innerHTML = trelist[i] + ' ';
+          a.id = 'y' + trelist[i];
+          a.href = '#';
+          a.onclick = click_year(trelist[i]);
+      }
+
+        });
+
+map.interaction.auto(); 
+interaction.showOnHover(true);
+  map.ui.attribution.add()
+      .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
+
+      // to start easey links
+
+// years[features[i].properties.tre]
+
+
+// to set the 
+
+//  document.getElementById('toronto').onclick = function() {
+//     map.ease.location({ lat: 43.6, lon: -79.4 }).zoom(10).optimal();
+//     return false;
+//   }
+
+//   document.getElementById('chicago').onclick = function() {
+//     map.ease.location({ lat: 41.9, lon: -87.6 }).zoom(10).optimal();
+//     return false;
+//   }
+
+//   document.getElementById('dc').onclick = function() {
+//     map.ease.location({ lat: 38.9, lon: -77 }).zoom(10).optimal();
+//     return false;
+//   }
+
+
+
+</script>
+</body>
+</html>
