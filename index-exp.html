@@ -68,9 +68,6 @@ a.year-active {
       controls = document.getElementById('controls');
 
   var markerLayer = mapbox.markers.layer()
-      // this is a quick optimization - otherwise all markers are briefly displayed
-      // before filtering to 2001
-      .filter(function() { return false })
       .url('../layers/locations.geojson', function(err, features) {
   map.addLayer(markerLayer);
 
