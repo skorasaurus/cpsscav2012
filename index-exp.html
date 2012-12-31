@@ -68,30 +68,13 @@ a.year-active {
       controls = document.getElementById('controls');
 
   var markerLayer = mapbox.markers.layer()
+      // this is a quick optimization - otherwise all markers are briefly displayed
+      // before filtering to 2001
+      .filter(function() { return false })
       .url('../layers/locations.geojson', function(err, features) {
   map.addLayer(markerLayer);
 
-
- // A closure for clicking years. You give it a year, and it returns a function
-      // that, when run, clicks that year. It's this way in order to be used as both an
-      // event handler and run manually.
-
-      // when user clicks year, they are zoominto the location
-      function click_year(y) {
-          return function() {
-              map.ease.location({lat: y.geometry.coordinates[1], lon: y.geometry.coordinates[0]}).zoom(17).optimal();
-              markerLayer.filter(function(f) {
-              return f.properties.tre == y;
-              });
-              return false;
-          };
-      }
-
-
-
-
 // Vars
-// WAS years -
 // WAS yearlist - trelist
 // WAS year_links - tre_links
 
@@ -111,38 +94,23 @@ a.year-active {
           var a = timeline.appendChild(document.createElement('a'));
           a.innerHTML = trelist[i] + ' ';
           a.id = 'y' + trelist[i];
-          a.href = '#';
-          a.onclick = click_year(trelist[i]);
+          a.href = '#'; // from http://bl.ocks.org/4286289
+          a.onclick = (function(feature) {
+            return function() {
+                map.center({
+                    lat: feature.geometry.coordinates[1],
+                    lon: feature.geometry.coordinates[0]
+                }, true);
+            }
+        })(trelist[i]);
       }
-
+ // I have no idea why this isn't working. 
         });
 
 map.interaction.auto(); 
 interaction.showOnHover(true);
   map.ui.attribution.add()
       .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
-
-      // to start easey links
-
-// years[features[i].properties.tre]
-
-
-// to set the 
-
-//  document.getElementById('toronto').onclick = function() {
-//     map.ease.location({ lat: 43.6, lon: -79.4 }).zoom(10).optimal();
-//     return false;
-//   }
-
-//   document.getElementById('chicago').onclick = function() {
-//     map.ease.location({ lat: 41.9, lon: -87.6 }).zoom(10).optimal();
-//     return false;
-//   }
-
-//   document.getElementById('dc').onclick = function() {
-//     map.ease.location({ lat: 38.9, lon: -77 }).zoom(10).optimal();
-//     return false;
-//   }
 
 
 

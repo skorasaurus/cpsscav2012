@@ -78,14 +78,13 @@ a.year-active {
  // A closure for clicking years. You give it a year, and it returns a function
       // that, when run, clicks that year. It's this way in order to be used as both an
       // event handler and run manually.
+
+      // when user clicks year, they are zoominto the location
       function click_year(y) {
           return function() {
-              var active = document.getElementsByClassName('year-active');
-              if (active.length) active[0].className = '';
-              document.getElementById('y' + y).className = 'year-active';
+              map.ease.location({lat: y.geometry.coordinates[1], lon: y.geometry.coordinates[0]}).zoom(17).optimal();
               markerLayer.filter(function(f) {
               return f.properties.tre == y;
-              y.map.ease.location({lat: feature.geometry.coordinates[1], lon: feature.geometry.coordinates[0]});
               });
               return false;
           };
