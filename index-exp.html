@@ -95,8 +95,8 @@ a.year-active {
           a.onclick = (function(feature) {
             return function() {
                 map.center({
-                    lat: feature.geometry.coordinates[1],
-                    lon: feature.geometry.coordinates[0]
+                    lat: coordinates[1],
+                    lon: coordinates[0]
                 }, true);
             }
         })(trelist[i]);
@@ -104,8 +104,6 @@ a.year-active {
  // I have no idea why this isn't working. 
         });
 
-map.interaction.auto(); 
-interaction.showOnHover(true);
   map.ui.attribution.add()
       .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
 
