@@ -94,14 +94,14 @@ a.year-active {
           a.href = '#'; // from http://bl.ocks.org/4286289
           a.onclick = (function(feature) {
             return function() {
-                map.center({
-                    lat: coordinates[1],
-                    lon: coordinates[0]
-                }, true);
-            }
-        })(trelist[i]);
-      }
- // I have no idea why this isn't working. 
+                 map.ease.location({
+                    lat: markerLayer.coordinates[1],
+                    lon: markerLayer.coordinates[0]
+                }.zoom(17).optimal());
+            }  // ends return function
+        }) // ends onclick
+      } // ends for loop
+ // I have no idea why this isnt working. 
         });
 
   map.ui.attribution.add()
