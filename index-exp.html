@@ -48,13 +48,12 @@ a.year-active {
   color:#DC1438;
   }
   </style>
-
 <div id='sidebar'>
   <div id='timeline'>
     <h2>Cleveland Photography Society's 2012 Photo Scavenger Hunt <small>Presented by: Sponsors</small></h2>
   </div>
 </div>
-
+ 
 <div id='mapsetup'></div>
 <script>
  // Create map from http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
@@ -62,48 +61,50 @@ a.year-active {
     map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012'));
   map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
   map.setZoomRange(15, 19);
-
-
+ 
+ 
   var timeline = document.getElementById('timeline'),
       controls = document.getElementById('controls');
-
-  var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson', 
-    function(err, features) { 
+ 
+  var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
+    function(err, features) {
     map.addLayer(markerLayer);
-
+ 
 // Vars
 // WAS yearlist - trelist
 // WAS year_links - tre_links
-
+ 
       var years = {},
           trelist = [],
           tre_links = [];
-
+ 
       for (var i = 0; i < features.length; i++) {
           years[features[i].properties.tre] = true;
       }
-
+ 
 // to sort the trelist
       for (var y in years) trelist.push(y);
       trelist.sort();
-
+ 
       for (var i = 0; i < trelist.length; i++) {
           var a = timeline.appendChild(document.createElement('a'));
-          a.innerHTML = trelist[i] + ' ';
-          a.id = 'y' + trelist[i];
-          a.href = '#'; // from http://bl.ocks.org/4286289
           a.onclick = (function(feature) {
+            console.log(feature);
+            console.log(markerLayer);
             return function() {
-                 map.ease.location({
-                    lat: markerLayer.coordinates[1],
-                    lon: markerLayer.coordinates[0]
-                }.zoom(17).optimal());
+                 map.center({
+                    lat: feature.geometry.coordinates[1],
+                    lon: feature.geometry.coordinates[0]
+                }, true);
             }  // ends return function
-        }) // ends onclick
+        })(features[i]); // ends onclick
+        a.innerHTML = trelist[i] + ' ';
+        a.id = 'y' + trelist[i];
+        a.href = '#'; // from http://bl.ocks.org/4286289
       } // ends for loop
- // I have no idea why this isnt working. 
+ // I have no idea why this isnt working.
         });
-
+ 
   map.ui.attribution.add()
       .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
 
