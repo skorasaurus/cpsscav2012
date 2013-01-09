@@ -73,22 +73,21 @@ a.year-active {
 // WAS year_links - tre_links
  
       var years = {},
-          trelist = [],
-          tre_links = [];
+          trelist = [];
  
       for (var i = 0; i < features.length; i++) {
           years[features[i].properties.tre] = true;
       }
  
 // to sort the trelist
-      for (var y in years) trelist.push(y);
-      trelist.sort();
+    for (var y in years) trelist.push(y);
+     trelist.sort();
  
       for (var i = 0; i < trelist.length; i++) {
           var a = timeline.appendChild(document.createElement('a'));
           a.onclick = (function(feature) {
-            console.log(feature);
-            console.log(markerLayer);
+            console.log("the feature is" + feature);
+            console.log("the markerLayer" + markerLayer);
             return function() {
                  map.center({
                     lat: feature.geometry.coordinates[1],
