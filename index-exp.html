@@ -72,16 +72,17 @@ a.year-active {
 // WAS yearlist - trelist
 // WAS year_links - tre_links
  
-      var years = {},
-          trelist = [];
+      var years = {}, // ob
+          trelist = []; // array
  
-      for (var i = 0; i < features.length; i++) {
+      for (var i = 1; i < features.length; i++) {
           years[features[i].properties.tre] = true;
+          trelist.push(i);
       }
  
 // to sort the trelist
-    for (var y in years) trelist.push(y);
-     trelist.sort();
+  //  for (var y in years) trelist.push(y);
+   //  trelist.sort();
  
       for (var i = 0; i < trelist.length; i++) {
           var a = timeline.appendChild(document.createElement('a'));
