@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
+
+<style>
+#mapsetup {position:absolute; top:0; bottom:0; width:100%; }
+#sidebar {
+  position:absolute;
+  top:0px;
+  left:0px;
+  background:#fff;
+  z-index:999;
+  overflow:auto;
+  opacity:0.6;
+  }
+#sidebar:hover { opacity:1; }
+#timeline {
+  padding:10px;
+  right:15px;
+  }
+#timeline a {
+  font-size:10px;
+  text-decoration:none;
+  }
+#timeline #controls {
+  position:absolute;
+  top:15px;
+  }
+#timeline #controls a {
+  font-size:20px;
+  color:#DC1438;
+  margin-left:10px;
+  }
+a.year-active {
+  color:#DC1438;
+  }
+  </style>
+ </style>
+</head>
+<body>
+
+
+ <div id="mapsetup"></div>
+
+
+<script>
+
+var map = L.map('mapsetup').setView([41.5010, -81.6922], 17);
+
+L.tileLayer('http://a.tiles.mapbox.com/v3/skorasaurus.cpsscav2012/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+}).addTo(map);
+
+</script>
+</body>
+</html>
