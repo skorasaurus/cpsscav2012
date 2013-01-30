@@ -9,7 +9,7 @@
 <script src="http://cdn.leafletjs.com/leaflet-0.4.5/leaflet.js"></script>
 
 <style>
-#mapsetup {position:absolute; top:0; bottom:0; width:100%; }
+#mapsetup {position:absolute; top:0; bottom:0; height:40%; width:80%; }
 #sidebar {
   position:absolute;
   top:0px;
@@ -51,13 +51,20 @@ a.year-active {
 
 <script>
 
-var map = L.map('mapsetup').setView([41.5010, -81.6922], 17);
+var map = L.map('mapsetup').setView([41.5010, -81.6922], 15);
 
 L.tileLayer('http://a.tiles.mapbox.com/v3/skorasaurus.cpsscav2012/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
+    maxZoom: 19
 }).addTo(map);
-
+/* from tokumine - reqs jquery
+    $.getJSON('data.json',function(features){      
+      // Create and add marker layer
+      var markerLayer = mapbox.markers.layer().features(features.features);
+      var interaction = mapbox.markers.interaction(markerLayer);
+      map.addLayer(markerLayer);    
+    });
+*/ 
 </script>
 </body>
 </html>
