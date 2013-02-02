@@ -66,6 +66,7 @@ a.year-active {
  
   var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
     function(err, features) {
+    var interaction = mapbox.markers.interaction(markerLayer);
     map.addLayer(markerLayer);
  
 // Vars
@@ -91,8 +92,8 @@ a.year-active {
             console.log("the markerLayer" + markerLayer);
             return function() {
                  map.center({
-                    lat: feature.geometry.coordinates[1],
-                    lon: feature.geometry.coordinates[0]
+                    lat: features[i].geometry.coordinates[1],
+                    lon: features[i].geometry.coordinates[0]
                 }, true);
             }  // ends return function
         })(trelist[i]); // completion of function function(feature) 
