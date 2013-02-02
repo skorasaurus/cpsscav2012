@@ -54,9 +54,13 @@ a.year-active {
  
 <div id='mapsetup'></div>
 <script>
- // Create map from http://mapbox.com/mapbox.js/example/custom-marker-tooltip/
+ // http://mapbox.com/mapbox.js/example/interactive-layer-mapbox-layer/
     var map = mapbox.map('mapsetup');
-    map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012'));
+    map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012', function() {
+    // this function runs after the layer examples.map-8ced9urs is loaded
+    // from MapBox and we know what interactive features are supported.
+    map.interaction.auto();
+}));
   map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
   map.setZoomRange(15, 19);
  
