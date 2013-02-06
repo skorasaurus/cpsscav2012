@@ -71,10 +71,16 @@ a.year-active {
       map.addLayer(markerLayer);
       var years = {}, // ob
       trelist = []; // array
+
+
+
       for (var i = 0; i < features.length; i++) {
           years[features[i].properties.tre] = true;
           trelist.push(i);
       }
+
+    markerLayer.filter(function() { return false; });
+
       for (var i = 0; i < trelist.length; i++) {
           var a = timeline.appendChild(document.createElement('a'));
           a.onclick = (function(feature) {
