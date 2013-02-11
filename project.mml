@@ -13,7 +13,7 @@
   "format": "png8",
   "interactivity": {
     "layer": "locations",
-    "template_teaser": "Photo #: <strong>{{{tre}}}</strong> <br>\n\nImage: Forthcoming. <img src=\"{{imgurl}}\">",
+    "template_teaser": "Name: <strong>{{{name}}}</strong><br>\nPhoto #: <strong>{{{tre}}}</strong> <br>\n<img src=\"{{imgurl}}\">",
     "fields": [
       "tre",
       "imgurl",

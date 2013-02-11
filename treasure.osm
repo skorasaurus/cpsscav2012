@@ -1,467 +1,530 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' upload='true' generator='JOSM'>
   <node id='-3005' action='modify' visible='true' lat='41.49959215052221' lon='-81.6858875314604'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Arches' />
     <tag k='tre' v='123' />
   </node>
   <node id='-3003' action='modify' visible='true' lat='41.49417708160838' lon='-81.7018104749187'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Red Hand' />
     <tag k='tre' v='81' />
   </node>
   <node id='-3001' action='modify' visible='true' lat='41.49956362383304' lon='-81.68441464749606'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Blue Windows' />
     <tag k='tre' v='79' />
   </node>
   <node id='-2999' action='modify' visible='true' lat='41.50012357055078' lon='-81.70024275975746'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Light With Brick And Stone' />
     <tag k='tre' v='91' />
   </node>
   <node id='-2997' action='modify' visible='true' lat='41.50071933678025' lon='-81.68916647066754'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
-    <tag k='name' v='gold gridwork' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Gold Gridwork' />
     <tag k='tre' v='86' />
   </node>
   <node id='-2995' action='modify' visible='true' lat='41.500783021107594' lon='-81.69225665890906'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='NY City' />
     <tag k='tre' v='83' />
   </node>
   <node id='-2993' action='modify' visible='true' lat='41.50027456634926' lon='-81.69920619642667'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Red Brick Arch' />
     <tag k='tre' v='76' />
   </node>
   <node id='-2991' action='modify' visible='true' lat='41.496713331004585' lon='-81.68724258402764'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Building Etching' />
     <tag k='tre' v='70' />
   </node>
   <node id='-2989' action='modify' visible='true' lat='41.49704613537439' lon='-81.68924802702547'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Ribbons' />
     <tag k='tre' v='64' />
   </node>
   <node id='-2987' action='modify' visible='true' lat='41.50615603068884' lon='-81.68212474352607'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='those stupid roosters' />
     <tag k='tre' v='61' />
   </node>
   <node id='-2985' action='modify' visible='true' lat='41.4973475484598' lon='-81.68245461879883'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
-    <tag k='name' v='Little Boy' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Little Boy Rock' />
     <tag k='tre' v='44' />
   </node>
   <node id='-2983' action='modify' visible='true' lat='41.50117234202775' lon='-81.68065521171918'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='To the Pioneers' />
     <tag k='tre' v='37' />
   </node>
   <node id='-2981' action='modify' visible='true' lat='41.497659404552486' lon='-81.68945687663967'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Baker' />
     <tag k='tre' v='107' />
   </node>
   <node id='-2979' action='modify' visible='true' lat='41.49187371226562' lon='-81.70343901105059'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='West Street' />
     <tag k='tre' v='104' />
   </node>
   <node id='-2977' action='modify' visible='true' lat='41.498672532060695' lon='-81.68707490745868'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='B' />
     <tag k='tre' v='78' />
   </node>
   <node id='-2975' action='modify' visible='true' lat='41.49923449702739' lon='-81.68504634799326'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Blurry Ferns' />
     <tag k='tre' v='112' />
   </node>
   <node id='-2973' action='modify' visible='true' lat='41.509289737581916' lon='-81.68833795722993'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Race Car' />
     <tag k='tre' v='92' />
   </node>
   <node id='-2971' action='modify' visible='true' lat='41.499381736917925' lon='-81.68898494406938'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='fancy details' />
     <tag k='tre' v='53' />
   </node>
   <node id='-2969' action='modify' visible='true' lat='41.4986687228931' lon='-81.6815031681328'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='arch with green door' />
     <tag k='tre' v='67' />
   </node>
   <node id='-2967' action='modify' visible='true' lat='41.498100450770735' lon='-81.68621542246603'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Toothbrush Alley' />
     <tag k='tre' v='25' />
   </node>
   <node id='-2965' action='modify' visible='true' lat='41.4987789134019' lon='-81.68987722591659'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Pavement Swirl' />
     <tag k='tre' v='77' />
   </node>
   <node id='-2963' action='modify' visible='true' lat='41.497888864968324' lon='-81.68862000986836'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Red Light' />
     <tag k='tre' v='65' />
   </node>
   <node id='-2961' action='modify' visible='true' lat='41.499932072888726' lon='-81.68382429929738'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='circle window' />
     <tag k='tre' v='2' />
   </node>
   <node id='-2959' action='modify' visible='true' lat='41.50071342721184' lon='-81.68188530614694'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='OK' />
     <tag k='tre' v='89' />
   </node>
   <node id='-2957' action='modify' visible='true' lat='41.50102232760904' lon='-81.68189948176854'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Idea' />
     <tag k='tre' v='88' />
   </node>
   <node id='-2955' action='modify' visible='true' lat='41.50080787615861' lon='-81.68257883270215'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Musical Note' />
     <tag k='tre' v='69' />
   </node>
   <node id='-2953' action='modify' visible='true' lat='41.509383172099234' lon='-81.69528450840951'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Red Metal Flames' />
     <tag k='tre' v='46' />
   </node>
   <node id='-2951' action='modify' visible='true' lat='41.50792749682324' lon='-81.69813855178883'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='View With Grass' />
     <tag k='tre' v='71' />
   </node>
   <node id='-2949' action='modify' visible='true' lat='41.49640487915957' lon='-81.68698910949512'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Red Check' />
     <tag k='tre' v='28' />
   </node>
   <node id='-2947' action='modify' visible='true' lat='41.49913592201035' lon='-81.68541214543205'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Orange Tower' />
     <tag k='tre' v='36' />
   </node>
   <node id='-2945' action='modify' visible='true' lat='41.50175053508266' lon='-81.69269396811679'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='metal lattice' />
     <tag k='tre' v='14' />
   </node>
   <node id='-2943' action='modify' visible='true' lat='41.49772741284013' lon='-81.69479310633254'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Corner Office' />
     <tag k='tre' v='33' />
   </node>
   <node id='-2941' action='modify' visible='true' lat='41.497724068552934' lon='-81.69476517949194'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Toynbee' />
     <tag k='tre' v='22' />
   </node>
   <node id='-2939' action='modify' visible='true' lat='41.49727947230292' lon='-81.69866638083468'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Angel' />
     <tag k='tre' v='63' />
   </node>
   <node id='-2937' action='modify' visible='true' lat='41.49688480393697' lon='-81.69941578913539'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Man With Glasses' />
     <tag k='tre' v='23' />
   </node>
   <node id='-2935' action='modify' visible='true' lat='41.49612829380736' lon='-81.70067754750686'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Asian Face' />
     <tag k='tre' v='60' />
   </node>
   <node id='-2933' action='modify' visible='true' lat='41.502573339395816' lon='-81.69809569210418'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='curly boy' />
     <tag k='tre' v='45' />
   </node>
   <node id='-2931' action='modify' visible='true' lat='41.49878991597158' lon='-81.70347226473169'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Red Shutters' />
     <tag k='tre' v='75' />
   </node>
   <node id='-2929' action='modify' visible='true' lat='41.4950350634755' lon='-81.70146142124844'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='man with pigeons' />
     <tag k='tre' v='49' />
   </node>
   <node id='-2927' action='modify' visible='true' lat='41.488800627834664' lon='-81.70087207653596'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Wheezing' />
     <tag k='tre' v='11' />
   </node>
   <node id='-2925' action='modify' visible='true' lat='41.50026860221423' lon='-81.68291963995995'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='MCMV' />
     <tag k='tre' v='5' />
   </node>
   <node id='-2923' action='modify' visible='true' lat='41.50167795316339' lon='-81.68314409426617'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='crosses' />
     <tag k='tre' v='56' />
   </node>
   <node id='-2921' action='modify' visible='true' lat='41.50252084831843' lon='-81.6835745710332'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Ram&apos;s Heads' />
     <tag k='tre' v='29' />
   </node>
   <node id='-2919' action='modify' visible='true' lat='41.50197287023359' lon='-81.68398345836546'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='lots of windows' />
     <tag k='tre' v='9' />
   </node>
   <node id='-2917' action='modify' visible='true' lat='41.50264428562873' lon='-81.69824641421353'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Glasses' />
     <tag k='tre' v='74' />
   </node>
   <node id='-2915' action='modify' visible='true' lat='41.49926060951866' lon='-81.69026015355931'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Red Check' />
     <tag k='tre' v='34' />
   </node>
   <node id='-2913' action='modify' visible='true' lat='41.489766342923055' lon='-81.70033341753243'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Peacock' />
     <tag k='tre' v='90' />
   </node>
   <node id='-2911' action='modify' visible='true' lat='41.50384981546811' lon='-81.68065592372075'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='cadillac' />
     <tag k='tre' v='59' />
   </node>
   <node id='-2909' action='modify' visible='true' lat='41.49845074382448' lon='-81.68634725526466'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='512' />
     <tag k='tre' v='55' />
   </node>
   <node id='-2907' action='modify' visible='true' lat='41.50006357859035' lon='-81.68703386561295'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='circle window with people' />
     <tag k='tre' v='68' />
   </node>
   <node id='-2905' action='modify' visible='true' lat='41.50465095026018' lon='-81.69029261074422'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Bowling Pin' />
     <tag k='tre' v='20' />
   </node>
   <node id='-2903' action='modify' visible='true' lat='41.49648185663766' lon='-81.68630981058494'>
     <tag k='Notes' v='Taken from 3rd Floor Walkway connecting Parking Garage and Progressive Field' />
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='table with a view' />
     <tag k='tre' v='21' />
   </node>
   <node id='-2901' action='modify' visible='true' lat='41.505382041618724' lon='-81.69250348331'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='free stamp' />
     <tag k='tre' v='7' />
   </node>
   <node id='-2899' action='modify' visible='true' lat='41.499528555091686' lon='-81.6928191037181'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Above Sea Level' />
     <tag k='tre' v='72' />
   </node>
   <node id='-2897' action='modify' visible='true' lat='41.500509163693856' lon='-81.69422852833021'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='metal vines' />
     <tag k='tre' v='15' />
   </node>
   <node id='-2895' action='modify' visible='true' lat='41.49850124095168' lon='-81.69824897971682'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Peak on Red Brick' />
     <tag k='tre' v='31' />
   </node>
   <node id='-2893' action='modify' visible='true' lat='41.502673063431985' lon='-81.67942516570542'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Ropes' />
     <tag k='tre' v='57' />
   </node>
   <node id='-2891' action='modify' visible='true' lat='41.502050808062585' lon='-81.67915266712286'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='cut out words' />
     <tag k='tre' v='6' />
   </node>
   <node id='-2889' action='modify' visible='true' lat='41.500502507011774' lon='-81.67921127089838'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='CSU' />
     <tag k='tre' v='3' />
   </node>
   <node id='-2887' action='modify' visible='true' lat='41.50294933711384' lon='-81.69231410312668'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Cleveland 1796' />
     <tag k='tre' v='39' />
   </node>
   <node id='-2885' action='modify' visible='true' lat='41.50195749849876' lon='-81.69234245521126'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='512' />
     <tag k='tre' v='73' />
   </node>
   <node id='-2883' action='modify' visible='true' lat='41.502090164966845' lon='-81.69228084102056'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='annie' />
     <tag k='tre' v='102' />
   </node>
   <node id='-2881' action='modify' visible='true' lat='41.49672948256334' lon='-81.70080832279542'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Street' />
     <tag k='tre' v='109' />
   </node>
   <node id='-2879' action='modify' visible='true' lat='41.496745263237585' lon='-81.69976959461201'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Toasted' />
     <tag k='tre' v='96' />
   </node>
   <node id='-2877' action='modify' visible='true' lat='41.498014477847306' lon='-81.7031665902468'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Unibrow' />
     <tag k='tre' v='114' />
   </node>
   <node id='-2875' action='modify' visible='true' lat='41.49951583740991' lon='-81.70361659763275'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Curved Metal and Windows' />
     <tag k='tre' v='48' />
   </node>
   <node id='-2873' action='modify' visible='true' lat='41.496898101993544' lon='-81.69366317479133'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='layer' v='-1' />
+    <tag k='name' v='Team' />
     <tag k='tre' v='24' />
   </node>
   <node id='-2871' action='modify' visible='true' lat='41.49893327178787' lon='-81.69017569462514'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Kravse' />
     <tag k='tre' v='30' />
   </node>
   <node id='-2869' action='modify' visible='true' lat='41.505349192911574' lon='-81.68280505177687'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='red door' />
     <tag k='tre' v='52' />
   </node>
   <node id='-2867' action='modify' visible='true' lat='41.50076911291197' lon='-81.68982589015735'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Ugly Baby' />
     <tag k='tre' v='87' />
   </node>
   <node id='-2865' action='modify' visible='true' lat='41.4998842237739' lon='-81.69033037579307'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='The Ribbon' />
     <tag k='tre' v='84' />
   </node>
   <node id='-2863' action='modify' visible='true' lat='41.498065616492134' lon='-81.68987072284516'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Window That Used To Be' />
     <tag k='tre' v='119' />
   </node>
   <node id='-2861' action='modify' visible='true' lat='41.49946639767266' lon='-81.68235186933406'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Glass Indent' />
     <tag k='tre' v='35' />
   </node>
   <node id='-2859' action='modify' visible='true' lat='41.497854433489685' lon='-81.69200871927634'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Round garage' />
     <tag k='tre' v='16' />
   </node>
   <node id='-2857' action='modify' visible='true' lat='41.498498762013064' lon='-81.68626514686991'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Ribbon Face' />
     <tag k='tre' v='42' />
   </node>
   <node id='-2855' action='modify' visible='true' lat='41.498668839280626' lon='-81.68841605670251'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Red Flower' />
     <tag k='tre' v='40' />
   </node>
   <node id='-2853' action='modify' visible='true' lat='41.49855886469056' lon='-81.68924586045704'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='mosaic' />
     <tag k='tre' v='10' />
   </node>
   <node id='-2851' action='modify' visible='true' lat='41.50138013442165' lon='-81.69101521755216'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Pyramid' />
     <tag k='tre' v='80' />
   </node>
   <node id='-2849' action='modify' visible='true' lat='41.50043666639811' lon='-81.69249212492694'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='old light and man' />
     <tag k='tre' v='18' />
   </node>
   <node id='-2847' action='modify' visible='true' lat='41.50655883743926' lon='-81.69119183053542'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
-    <tag k='name' v='trombone' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Trombone' />
     <tag k='tre' v='43' />
   </node>
   <node id='-2845' action='modify' visible='true' lat='41.50682514082669' lon='-81.6892512572027'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Screaming Man' />
     <tag k='tre' v='26' />
   </node>
   <node id='-2843' action='modify' visible='true' lat='41.506158680560326' lon='-81.68889188915767'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Arched Reflection' />
     <tag k='tre' v='99' />
   </node>
   <node id='-2841' action='modify' visible='true' lat='41.50877026634193' lon='-81.68405717676089'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Rail' />
     <tag k='tre' v='27' />
   </node>
   <node id='-2839' action='modify' visible='true' lat='41.50729726477513' lon='-81.68305992416138'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Brick House' />
     <tag k='tre' v='1' />
   </node>
   <node id='-2837' action='modify' visible='true' lat='41.50740494374324' lon='-81.68681047102547'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Balcony' />
     <tag k='tre' v='82' />
   </node>
   <node id='-2835' action='modify' visible='true' lat='41.50726322254422' lon='-81.68862196351724'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Swoop Man' />
     <tag k='tre' v='38' />
   </node>
   <node id='-2833' action='modify' visible='true' lat='41.50528661221602' lon='-81.68111761369406'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Lights With Leaves' />
     <tag k='tre' v='62' />
   </node>
   <node id='-2831' action='modify' visible='true' lat='41.50064742133397' lon='-81.68262154510599'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='wooster' />
     <tag k='tre' v='51' />
   </node>
   <node id='-2829' action='modify' visible='true' lat='41.50440689098361' lon='-81.68392922760246'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='security' />
     <tag k='tre' v='4' />
   </node>
   <node id='-2827' action='modify' visible='true' lat='41.503192112516786' lon='-81.68224210042432'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='RE' />
     <tag k='tre' v='101' />
   </node>
   <node id='-2825' action='modify' visible='true' lat='41.50242246765511' lon='-81.68128305621883'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/008.jpg' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img//008.jpg' />
     <tag k='name' v='squatting man' />
     <tag k='tre' v='8' />
   </node>
   <node id='-2823' action='modify' visible='true' lat='41.50634782713448' lon='-81.69724239730805'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Flames' />
     <tag k='tre' v='19' />
   </node>
   <node id='-2821' action='modify' visible='true' lat='41.49303089582453' lon='-81.7005707520689'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Green Awning' />
     <tag k='tre' v='97' />
   </node>
   <node id='-2819' action='modify' visible='true' lat='41.4954064371135' lon='-81.70156438411337'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Alex' />
     <tag k='tre' v='115' />
   </node>
   <node id='-2817' action='modify' visible='true' lat='41.49793927664812' lon='-81.69738709069411'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='G' />
     <tag k='tre' v='125' />
   </node>
   <node id='-2815' action='modify' visible='true' lat='41.49735119312173' lon='-81.69925378951261'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Ding Dot' />
     <tag k='tre' v='12' />
   </node>
   <node id='-2813' action='modify' visible='true' lat='41.499665826320474' lon='-81.67857486514552'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Arch With White Streaks' />
     <tag k='tre' v='58' />
   </node>
   <node id='-2811' action='modify' visible='true' lat='41.50663493863575' lon='-81.68465750511635'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Beige Arch' />
     <tag k='tre' v='121' />
   </node>
   <node id='-2809' action='modify' visible='true' lat='41.510550332622294' lon='-81.69133318360043'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Sub' />
     <tag k='tre' v='47' />
   </node>
   <node id='-2807' action='modify' visible='true' lat='41.49999577096843' lon='-81.68954178639622'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Square O' />
     <tag k='tre' v='85' />
   </node>
   <node id='-2805' action='modify' visible='true' lat='41.50234190977679' lon='-81.69102795438148'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='eagle' />
     <tag k='tre' v='32' />
   </node>
   <node id='-2803' action='modify' visible='true' lat='41.49951251429747' lon='-81.69141983134614'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='License Plates' />
     <tag k='tre' v='66' />
   </node>
   <node id='-2801' action='modify' visible='true' lat='41.49857982693397' lon='-81.68775112000031'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Cornucopia Face' />
     <tag k='tre' v='54' />
   </node>
   <node id='-2799' action='modify' visible='true' lat='41.50114741750603' lon='-81.70260820901956'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Company' />
     <tag k='tre' v='50' />
   </node>
   <node id='-2797' action='modify' visible='true' lat='41.494116362239694' lon='-81.70314823238047'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='7' />
     <tag k='layer' v='1' />
     <tag k='tre' v='120' />
   </node>
@@ -508,82 +571,98 @@
   <node id='-2715' action='modify' visible='true' lat='41.49358455105404' lon='-81.70372554545564' />
   <node id='-2713' action='modify' visible='true' lat='41.4917787806225' lon='-81.70480736827149' />
   <node id='-2711' action='modify' visible='true' lat='41.500166717832094' lon='-81.68838618568319'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Squished Bear' />
     <tag k='tre' v='108' />
   </node>
   <node id='-2709' action='modify' visible='true' lat='41.49988227923005' lon='-81.68839193993179'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Pineapple' />
     <tag k='tre' v='98' />
   </node>
   <node id='-2707' action='modify' visible='true' lat='41.50130541991164' lon='-81.68657883226766'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Flower Swoop' />
     <tag k='tre' v='110' />
   </node>
   <node id='-2705' action='modify' visible='true' lat='41.499134323576506' lon='-81.68195576657706'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='fancy door' />
     <tag k='tre' v='17' />
   </node>
   <node id='-2703' action='modify' visible='true' lat='41.49701513800776' lon='-81.6989975383302'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='S.T.' />
     <tag k='tre' v='94' />
   </node>
   <node id='-2701' action='modify' visible='true' lat='41.498415766687124' lon='-81.70314176041848'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='red and yellow' />
     <tag k='tre' v='13' />
   </node>
   <node id='-2699' action='modify' visible='true' lat='41.49377174452171' lon='-81.68957738251099'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Faded Company' />
     <tag k='tre' v='118' />
   </node>
   <node id='-2697' action='modify' visible='true' lat='41.497470144787506' lon='-81.6879194173027'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Garbage Can' />
     <tag k='tre' v='93' />
   </node>
   <node id='-2695' action='modify' visible='true' lat='41.50160099833455' lon='-81.69244690893866'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Angled Gridwork' />
     <tag k='tre' v='95' />
   </node>
   <node id='-2693' action='modify' visible='true' lat='41.50048870979006' lon='-81.68400112254145'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Fashion' />
     <tag k='tre' v='100' />
   </node>
   <node id='-2691' action='modify' visible='true' lat='41.49735508970282' lon='-81.68568350554801'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Lots of Flowers' />
     <tag k='tre' v='103' />
   </node>
   <node id='-2689' action='modify' visible='true' lat='41.497094925593956' lon='-81.68451794466922'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Buckle' />
     <tag k='tre' v='106' />
   </node>
   <node id='-2687' action='modify' visible='true' lat='41.49824409295766' lon='-81.68722340445336'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Swoops' />
     <tag k='tre' v='111' />
   </node>
   <node id='-2685' action='modify' visible='true' lat='41.497308994722225' lon='-81.69384400974457'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Silver and Gold Octogon' />
     <tag k='tre' v='113' />
   </node>
   <node id='-2683' action='modify' visible='true' lat='41.49269692758568' lon='-81.68993024266425'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Barbed Wire' />
     <tag k='tre' v='116' />
   </node>
   <node id='-2681' action='modify' visible='true' lat='41.500384135124236' lon='-81.68487889038714'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
     <tag k='name' v='Attendant' />
     <tag k='tre' v='117' />
   </node>
   <node id='-2679' action='modify' visible='true' lat='41.50374087303709' lon='-81.69728925977677'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Fleur-de-lis-ish' />
     <tag k='tre' v='122' />
   </node>
   <node id='-2677' action='modify' visible='true' lat='41.497896849918085' lon='-81.68233392387623'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+    <tag k='name' v='Grapes' />
     <tag k='tre' v='124' />
   </node>
   <node id='-2675' action='modify' visible='true' lat='41.511302364350456' lon='-81.69041588601269'>
-    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/cpsscav2012/404placeholder.png' />
+    <tag k='imgurl' v='http://maps.jhfeichtnerfund.com/img/404placeholder.png' />
+   <tag k='name' v='Coco Cola' />
     <tag k='tre' v='105' />
   </node>
   <way id='-3007' action='modify' visible='true'>
