@@ -85,10 +85,10 @@ a.year-active {
           var a = timeline.appendChild(document.createElement('a'));
           a.onclick = (function(feature) {
               return function() {
-                  map.center({
+                  map.ease.location({
                       lat: feature.geometry.coordinates[1],
                       lon: feature.geometry.coordinates[0]
-                  }, true);
+                  }).zoom(17).optimal();
               };
           })(features[i]);
           a.innerHTML = trelist[i] + ' ';
