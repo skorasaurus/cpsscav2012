@@ -2,253 +2,253 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": -680, "properties": { "osm_id": 2147483647, "type": "105", "name": null, "tre": 105 }, "geometry": { "type": "Point", "coordinates": [ -81.690415886012673, 41.511302364350435 ] } }
+{ "type": "Feature", "properties": { "NAME": "Brick House", "TRE": 1}, "geometry": { "type": "Point", "coordinates": [ -81.68305992416137, 41.507297264775119 ] } }
 ,
-{ "type": "Feature", "id": -678, "properties": { "osm_id": 2147483647, "type": "124", "name": null, "tre": 124 }, "geometry": { "type": "Point", "coordinates": [ -81.682333923876243, 41.497896849918085 ] } }
+{ "type": "Feature", "properties": { "NAME": "circle window", "TRE": 2}, "geometry": { "type": "Point", "coordinates": [ -81.683824299297356, 41.499932072888704 ] } }
 ,
-{ "type": "Feature", "id": -676, "properties": { "osm_id": 2147483647, "type": "122", "name": null, "tre": 122 }, "geometry": { "type": "Point", "coordinates": [ -81.697289259776767, 41.503740873037067 ] } }
+{ "type": "Feature", "properties": { "NAME": "CSU", "TRE": 3}, "geometry": { "type": "Point", "coordinates": [ -81.679211270898364, 41.500502507011753 ] } }
 ,
-{ "type": "Feature", "id": -674, "properties": { "osm_id": 2147483647, "type": "117", "name": "Attendant", "tre": 117 }, "geometry": { "type": "Point", "coordinates": [ -81.684878890387139, 41.500384135124229 ] } }
+{ "type": "Feature", "properties": { "NAME": "security", "TRE": 4}, "geometry": { "type": "Point", "coordinates": [ -81.683929227602448, 41.504406890983603 ] } }
 ,
-{ "type": "Feature", "id": -672, "properties": { "osm_id": 2147483647, "type": "116", "name": null, "tre": 116 }, "geometry": { "type": "Point", "coordinates": [ -81.689930242664232, 41.492696927585669 ] } }
+{ "type": "Feature", "properties": { "NAME": "MCMV", "TRE": 5}, "geometry": { "type": "Point", "coordinates": [ -81.68291963995992, 41.500268602214192 ] } }
 ,
-{ "type": "Feature", "id": -670, "properties": { "osm_id": 2147483647, "type": "113", "name": null, "tre": 113 }, "geometry": { "type": "Point", "coordinates": [ -81.693844009744566, 41.497308994722218 ] } }
+{ "type": "Feature", "properties": { "NAME": "cut out words", "TRE": 6}, "geometry": { "type": "Point", "coordinates": [ -81.679152667122821, 41.50205080806257 ] } }
 ,
-{ "type": "Feature", "id": -668, "properties": { "osm_id": 2147483647, "type": "111", "name": null, "tre": 111 }, "geometry": { "type": "Point", "coordinates": [ -81.687223404453363, 41.498244092957648 ] } }
+{ "type": "Feature", "properties": { "NAME": "free stamp", "TRE": 7}, "geometry": { "type": "Point", "coordinates": [ -81.692503483309991, 41.505382041618702 ] } }
 ,
-{ "type": "Feature", "id": -666, "properties": { "osm_id": 2147483647, "type": "106", "name": null, "tre": 106 }, "geometry": { "type": "Point", "coordinates": [ -81.684517944669224, 41.497094925593949 ] } }
+{ "type": "Feature", "properties": { "NAME": "squatting man", "TRE": 8}, "geometry": { "type": "Point", "coordinates": [ -81.681283056218788, 41.502422467655073 ] } }
 ,
-{ "type": "Feature", "id": -664, "properties": { "osm_id": 2147483647, "type": "103", "name": null, "tre": 103 }, "geometry": { "type": "Point", "coordinates": [ -81.685683505548013, 41.497355089702808 ] } }
+{ "type": "Feature", "properties": { "NAME": "lots of windows", "TRE": 9}, "geometry": { "type": "Point", "coordinates": [ -81.683983458365446, 41.501972870233551 ] } }
 ,
-{ "type": "Feature", "id": -662, "properties": { "osm_id": 2147483647, "type": "100", "name": null, "tre": 100 }, "geometry": { "type": "Point", "coordinates": [ -81.684001122541446, 41.500488709790041 ] } }
+{ "type": "Feature", "properties": { "NAME": "mosaic", "TRE": 10}, "geometry": { "type": "Point", "coordinates": [ -81.689245860457007, 41.498558864690551 ] } }
 ,
-{ "type": "Feature", "id": -660, "properties": { "osm_id": 2147483647, "type": "95", "name": null, "tre": 95 }, "geometry": { "type": "Point", "coordinates": [ -81.692446908938663, 41.501600998334553 ] } }
+{ "type": "Feature", "properties": { "NAME": "Wheezing", "TRE": 11}, "geometry": { "type": "Point", "coordinates": [ -81.70087207653593, 41.488800627834664 ] } }
 ,
-{ "type": "Feature", "id": -658, "properties": { "osm_id": 2147483647, "type": "93", "name": null, "tre": 93 }, "geometry": { "type": "Point", "coordinates": [ -81.68791941730268, 41.497470144787506 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ding Dot", "TRE": 12}, "geometry": { "type": "Point", "coordinates": [ -81.699253789512582, 41.497351193121702 ] } }
 ,
-{ "type": "Feature", "id": -656, "properties": { "osm_id": 2147483647, "type": "118", "name": null, "tre": 118 }, "geometry": { "type": "Point", "coordinates": [ -81.68957738251099, 41.493771744521695 ] } }
+{ "type": "Feature", "properties": { "NAME": "red and yellow", "TRE": 13}, "geometry": { "type": "Point", "coordinates": [ -81.703141760418447, 41.498415766687117 ] } }
 ,
-{ "type": "Feature", "id": -654, "properties": { "osm_id": 2147483647, "type": "13", "name": "red and yellow", "tre": 13 }, "geometry": { "type": "Point", "coordinates": [ -81.703141760418461, 41.498415766687124 ] } }
+{ "type": "Feature", "properties": { "NAME": "metal lattice", "TRE": 14}, "geometry": { "type": "Point", "coordinates": [ -81.692693968116757, 41.501750535082643 ] } }
 ,
-{ "type": "Feature", "id": -652, "properties": { "osm_id": 2147483647, "type": "94", "name": null, "tre": 94 }, "geometry": { "type": "Point", "coordinates": [ -81.69899753833019, 41.497015138007768 ] } }
+{ "type": "Feature", "properties": { "NAME": "metal vines", "TRE": 15}, "geometry": { "type": "Point", "coordinates": [ -81.694228528330186, 41.500509163693827 ] } }
 ,
-{ "type": "Feature", "id": -650, "properties": { "osm_id": 2147483647, "type": "17", "name": null, "tre": 17 }, "geometry": { "type": "Point", "coordinates": [ -81.681955766577047, 41.499134323576499 ] } }
+{ "type": "Feature", "properties": { "NAME": "Round garage", "TRE": 16}, "geometry": { "type": "Point", "coordinates": [ -81.692008719276316, 41.497854433489657 ] } }
 ,
-{ "type": "Feature", "id": -648, "properties": { "osm_id": 2147483647, "type": "110", "name": null, "tre": 110 }, "geometry": { "type": "Point", "coordinates": [ -81.686578832267642, 41.501305419911631 ] } }
+{ "type": "Feature", "properties": { "NAME": "fancy door", "TRE": 17}, "geometry": { "type": "Point", "coordinates": [ -81.681955766577033, 41.499134323576484 ] } }
 ,
-{ "type": "Feature", "id": -646, "properties": { "osm_id": 2147483647, "type": "98", "name": null, "tre": 98 }, "geometry": { "type": "Point", "coordinates": [ -81.688391939931776, 41.499882279230057 ] } }
+{ "type": "Feature", "properties": { "NAME": "old light and man", "TRE": 18}, "geometry": { "type": "Point", "coordinates": [ -81.692492124926929, 41.500436666398087 ] } }
 ,
-{ "type": "Feature", "id": -644, "properties": { "osm_id": 2147483647, "type": "108", "name": null, "tre": 108 }, "geometry": { "type": "Point", "coordinates": [ -81.688386185683186, 41.500166717832073 ] } }
+{ "type": "Feature", "properties": { "NAME": "Flames", "TRE": 19}, "geometry": { "type": "Point", "coordinates": [ -81.697242397308017, 41.506347827134469 ] } }
 ,
-{ "type": "Feature", "id": -558, "properties": { "osm_id": 2147483647, "type": "120", "name": null, "tre": 120 }, "geometry": { "type": "Point", "coordinates": [ -81.703148232380471, 41.494116362239687 ] } }
+{ "type": "Feature", "properties": { "NAME": "Bowling Pin", "TRE": 20}, "geometry": { "type": "Point", "coordinates": [ -81.690292610744208, 41.50465095026015 ] } }
 ,
-{ "type": "Feature", "id": -556, "properties": { "osm_id": 2147483647, "type": "50", "name": null, "tre": 50 }, "geometry": { "type": "Point", "coordinates": [ -81.702608209019559, 41.501147417506026 ] } }
+{ "type": "Feature", "properties": { "NAME": "table with a view", "TRE": 21}, "geometry": { "type": "Point", "coordinates": [ -81.686309810584916, 41.496481856637644 ] } }
 ,
-{ "type": "Feature", "id": -554, "properties": { "osm_id": 2147483647, "type": "54", "name": null, "tre": 54 }, "geometry": { "type": "Point", "coordinates": [ -81.6877511200003, 41.498579826933948 ] } }
+{ "type": "Feature", "properties": { "NAME": "Toynbee", "TRE": 22}, "geometry": { "type": "Point", "coordinates": [ -81.694765179491924, 41.49772406855292 ] } }
 ,
-{ "type": "Feature", "id": -552, "properties": { "osm_id": 2147483647, "type": "66", "name": null, "tre": 66 }, "geometry": { "type": "Point", "coordinates": [ -81.691419831346138, 41.499512514297457 ] } }
+{ "type": "Feature", "properties": { "NAME": "Man With Glasses", "TRE": 23}, "geometry": { "type": "Point", "coordinates": [ -81.699415789135344, 41.496884803936943 ] } }
 ,
-{ "type": "Feature", "id": -550, "properties": { "osm_id": 2147483647, "type": "32", "name": "eagle", "tre": 32 }, "geometry": { "type": "Point", "coordinates": [ -81.691027954381482, 41.502341909776774 ] } }
+{ "type": "Feature", "properties": { "NAME": "Team", "TRE": 24}, "geometry": { "type": "Point", "coordinates": [ -81.693663174791297, 41.496898101993516 ] } }
 ,
-{ "type": "Feature", "id": -548, "properties": { "osm_id": 2147483647, "type": "85", "name": null, "tre": 85 }, "geometry": { "type": "Point", "coordinates": [ -81.689541786396205, 41.499995770968425 ] } }
+{ "type": "Feature", "properties": { "NAME": "Toothbrush Alley", "TRE": 25}, "geometry": { "type": "Point", "coordinates": [ -81.686215422466006, 41.498100450770721 ] } }
 ,
-{ "type": "Feature", "id": -546, "properties": { "osm_id": 2147483647, "type": "47", "name": null, "tre": 47 }, "geometry": { "type": "Point", "coordinates": [ -81.69133318360042, 41.510550332622294 ] } }
+{ "type": "Feature", "properties": { "NAME": "Screaming Man", "TRE": 26}, "geometry": { "type": "Point", "coordinates": [ -81.689251257202685, 41.506825140826678 ] } }
 ,
-{ "type": "Feature", "id": -544, "properties": { "osm_id": 2147483647, "type": "121", "name": null, "tre": 121 }, "geometry": { "type": "Point", "coordinates": [ -81.684657505116334, 41.506634938635727 ] } }
+{ "type": "Feature", "properties": { "NAME": "Rail", "TRE": 27}, "geometry": { "type": "Point", "coordinates": [ -81.684057176760859, 41.508770266341898 ] } }
 ,
-{ "type": "Feature", "id": -542, "properties": { "osm_id": 2147483647, "type": "58", "name": null, "tre": 58 }, "geometry": { "type": "Point", "coordinates": [ -81.678574865145507, 41.499665826320445 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Check", "TRE": 28}, "geometry": { "type": "Point", "coordinates": [ -81.686989109495087, 41.496404879159556 ] } }
 ,
-{ "type": "Feature", "id": -540, "properties": { "osm_id": 2147483647, "type": "12", "name": "Ding Dot", "tre": 12 }, "geometry": { "type": "Point", "coordinates": [ -81.699253789512611, 41.497351193121716 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ram's Heads", "TRE": 29}, "geometry": { "type": "Point", "coordinates": [ -81.683574571033191, 41.502520848318419 ] } }
 ,
-{ "type": "Feature", "id": -538, "properties": { "osm_id": 2147483647, "type": "125", "name": null, "tre": 125 }, "geometry": { "type": "Point", "coordinates": [ -81.697387090694093, 41.497939276648104 ] } }
+{ "type": "Feature", "properties": { "NAME": "Kravse", "TRE": 30}, "geometry": { "type": "Point", "coordinates": [ -81.690175694625125, 41.498933271787834 ] } }
 ,
-{ "type": "Feature", "id": -536, "properties": { "osm_id": 2147483647, "type": "115", "name": "Alex", "tre": 115 }, "geometry": { "type": "Point", "coordinates": [ -81.701564384113368, 41.495406437113488 ] } }
+{ "type": "Feature", "properties": { "NAME": "Peak on Red Brick", "TRE": 31}, "geometry": { "type": "Point", "coordinates": [ -81.69824897971678, 41.498501240951661 ] } }
 ,
-{ "type": "Feature", "id": -534, "properties": { "osm_id": 2147483647, "type": "97", "name": null, "tre": 97 }, "geometry": { "type": "Point", "coordinates": [ -81.700570752068899, 41.493030895824518 ] } }
+{ "type": "Feature", "properties": { "NAME": "eagle", "TRE": 32}, "geometry": { "type": "Point", "coordinates": [ -81.691027954381468, 41.50234190977676 ] } }
 ,
-{ "type": "Feature", "id": -532, "properties": { "osm_id": 2147483647, "type": "19", "name": "Flames", "tre": 19 }, "geometry": { "type": "Point", "coordinates": [ -81.697242397308045, 41.506347827134483 ] } }
+{ "type": "Feature", "properties": { "NAME": "Corner Office", "TRE": 33}, "geometry": { "type": "Point", "coordinates": [ -81.694793106332497, 41.497727412840099 ] } }
 ,
-{ "type": "Feature", "id": -530, "properties": { "osm_id": 2147483647, "type": "08", "name": null, "tre": 8 }, "geometry": { "type": "Point", "coordinates": [ -81.681283056218817, 41.50242246765508 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Check", "TRE": 34}, "geometry": { "type": "Point", "coordinates": [ -81.690260153559279, 41.49926060951865 ] } }
 ,
-{ "type": "Feature", "id": -528, "properties": { "osm_id": 2147483647, "type": "101", "name": "RE", "tre": 101 }, "geometry": { "type": "Point", "coordinates": [ -81.682242100424318, 41.503192112516786 ] } }
+{ "type": "Feature", "properties": { "NAME": "Glass Indent", "TRE": 35}, "geometry": { "type": "Point", "coordinates": [ -81.682351869334028, 41.499466397672634 ] } }
 ,
-{ "type": "Feature", "id": -526, "properties": { "osm_id": 2147483647, "type": "04", "name": null, "tre": 4 }, "geometry": { "type": "Point", "coordinates": [ -81.683929227602462, 41.504406890983617 ] } }
+{ "type": "Feature", "properties": { "NAME": "Orange Tower", "TRE": 36}, "geometry": { "type": "Point", "coordinates": [ -81.685412145432039, 41.499135922010346 ] } }
 ,
-{ "type": "Feature", "id": -524, "properties": { "osm_id": 2147483647, "type": "51", "name": null, "tre": 51 }, "geometry": { "type": "Point", "coordinates": [ -81.682621545106002, 41.50064742133398 ] } }
+{ "type": "Feature", "properties": { "NAME": "To the Pioneers", "TRE": 37}, "geometry": { "type": "Point", "coordinates": [ -81.68065521171917, 41.501172342027736 ] } }
 ,
-{ "type": "Feature", "id": -522, "properties": { "osm_id": 2147483647, "type": "62", "name": null, "tre": 62 }, "geometry": { "type": "Point", "coordinates": [ -81.681117613694056, 41.505286612215997 ] } }
+{ "type": "Feature", "properties": { "NAME": "Swoop Man", "TRE": 38}, "geometry": { "type": "Point", "coordinates": [ -81.688621963517221, 41.507263222544211 ] } }
 ,
-{ "type": "Feature", "id": -520, "properties": { "osm_id": 2147483647, "type": "38", "name": null, "tre": 38 }, "geometry": { "type": "Point", "coordinates": [ -81.688621963517235, 41.507263222544218 ] } }
+{ "type": "Feature", "properties": { "NAME": "Cleveland 1796", "TRE": 39}, "geometry": { "type": "Point", "coordinates": [ -81.692314103126662, 41.502949337113833 ] } }
 ,
-{ "type": "Feature", "id": -518, "properties": { "osm_id": 2147483647, "type": "82", "name": null, "tre": 82 }, "geometry": { "type": "Point", "coordinates": [ -81.686810471025453, 41.507404943743232 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Flower", "TRE": 40}, "geometry": { "type": "Point", "coordinates": [ -81.688416056702494, 41.498668839280612 ] } }
 ,
-{ "type": "Feature", "id": -516, "properties": { "osm_id": 2147483647, "type": "01", "name": null, "tre": 1 }, "geometry": { "type": "Point", "coordinates": [ -81.683059924161384, 41.507297264775126 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ribbon Face", "TRE": 42}, "geometry": { "type": "Point", "coordinates": [ -81.6862651468699, 41.49849876201305 ] } }
 ,
-{ "type": "Feature", "id": -514, "properties": { "osm_id": 2147483647, "type": "27", "name": null, "tre": 27 }, "geometry": { "type": "Point", "coordinates": [ -81.684057176760888, 41.508770266341912 ] } }
+{ "type": "Feature", "properties": { "NAME": "Trombone", "TRE": 43}, "geometry": { "type": "Point", "coordinates": [ -81.691191830535388, 41.506558837439222 ] } }
 ,
-{ "type": "Feature", "id": -512, "properties": { "osm_id": 2147483647, "type": "99", "name": null, "tre": 99 }, "geometry": { "type": "Point", "coordinates": [ -81.688891889157674, 41.506158680560311 ] } }
+{ "type": "Feature", "properties": { "NAME": "Little Boy Rock", "TRE": 44}, "geometry": { "type": "Point", "coordinates": [ -81.682454618798801, 41.497347548459778 ] } }
 ,
-{ "type": "Feature", "id": -510, "properties": { "osm_id": 2147483647, "type": "26", "name": "Screaming Man", "tre": 26 }, "geometry": { "type": "Point", "coordinates": [ -81.689251257202699, 41.506825140826692 ] } }
+{ "type": "Feature", "properties": { "NAME": "curly boy", "TRE": 45}, "geometry": { "type": "Point", "coordinates": [ -81.698095692104147, 41.502573339395788 ] } }
 ,
-{ "type": "Feature", "id": -508, "properties": { "osm_id": 2147483647, "type": "43", "name": "trombone", "tre": 43 }, "geometry": { "type": "Point", "coordinates": [ -81.691191830535402, 41.506558837439229 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Metal Flames", "TRE": 46}, "geometry": { "type": "Point", "coordinates": [ -81.6952845084095, 41.50938317209922 ] } }
 ,
-{ "type": "Feature", "id": -506, "properties": { "osm_id": 2147483647, "type": "18", "name": null, "tre": 18 }, "geometry": { "type": "Point", "coordinates": [ -81.692492124926943, 41.500436666398102 ] } }
+{ "type": "Feature", "properties": { "NAME": "Sub", "TRE": 47}, "geometry": { "type": "Point", "coordinates": [ -81.691333183600392, 41.51055033262228 ] } }
 ,
-{ "type": "Feature", "id": -504, "properties": { "osm_id": 2147483647, "type": "80", "name": null, "tre": 80 }, "geometry": { "type": "Point", "coordinates": [ -81.691015217552163, 41.501380134421652 ] } }
+{ "type": "Feature", "properties": { "NAME": "Curved Metal and Windows", "TRE": 48}, "geometry": { "type": "Point", "coordinates": [ -81.703616597632717, 41.499515837409881 ] } }
 ,
-{ "type": "Feature", "id": -502, "properties": { "osm_id": 2147483647, "type": "10", "name": null, "tre": 10 }, "geometry": { "type": "Point", "coordinates": [ -81.689245860457021, 41.498558864690565 ] } }
+{ "type": "Feature", "properties": { "NAME": "man with pigeons", "TRE": 49}, "geometry": { "type": "Point", "coordinates": [ -81.70146142124841, 41.495035063475491 ] } }
 ,
-{ "type": "Feature", "id": -500, "properties": { "osm_id": 2147483647, "type": "40", "name": null, "tre": 40 }, "geometry": { "type": "Point", "coordinates": [ -81.688416056702508, 41.498668839280626 ] } }
+{ "type": "Feature", "properties": { "NAME": "Company", "TRE": 50}, "geometry": { "type": "Point", "coordinates": [ -81.70260820901953, 41.501147417506019 ] } }
 ,
-{ "type": "Feature", "id": -498, "properties": { "osm_id": 2147483647, "type": "42", "name": null, "tre": 42 }, "geometry": { "type": "Point", "coordinates": [ -81.686265146869914, 41.498498762013064 ] } }
+{ "type": "Feature", "properties": { "NAME": "wooster", "TRE": 51}, "geometry": { "type": "Point", "coordinates": [ -81.682621545105974, 41.500647421333966 ] } }
 ,
-{ "type": "Feature", "id": -496, "properties": { "osm_id": 2147483647, "type": "16", "name": null, "tre": 16 }, "geometry": { "type": "Point", "coordinates": [ -81.692008719276345, 41.497854433489671 ] } }
+{ "type": "Feature", "properties": { "NAME": "red door", "TRE": 52}, "geometry": { "type": "Point", "coordinates": [ -81.682805051776839, 41.505349192911559 ] } }
 ,
-{ "type": "Feature", "id": -494, "properties": { "osm_id": 2147483647, "type": "35", "name": null, "tre": 35 }, "geometry": { "type": "Point", "coordinates": [ -81.682351869334042, 41.499466397672649 ] } }
+{ "type": "Feature", "properties": { "NAME": "fancy details", "TRE": 53}, "geometry": { "type": "Point", "coordinates": [ -81.688984944069347, 41.499381736917897 ] } }
 ,
-{ "type": "Feature", "id": -492, "properties": { "osm_id": 2147483647, "type": "119", "name": null, "tre": 119 }, "geometry": { "type": "Point", "coordinates": [ -81.689870722845143, 41.49806561649212 ] } }
+{ "type": "Feature", "properties": { "NAME": "Cornucopia Face", "TRE": 54}, "geometry": { "type": "Point", "coordinates": [ -81.687751120000286, 41.498579826933941 ] } }
 ,
-{ "type": "Feature", "id": -490, "properties": { "osm_id": 2147483647, "type": "84", "name": null, "tre": 84 }, "geometry": { "type": "Point", "coordinates": [ -81.690330375793067, 41.499884223773883 ] } }
+{ "type": "Feature", "properties": { "NAME": "512", "TRE": 55}, "geometry": { "type": "Point", "coordinates": [ -81.68634725526465, 41.498450743824463 ] } }
 ,
-{ "type": "Feature", "id": -488, "properties": { "osm_id": 2147483647, "type": "87", "name": null, "tre": 87 }, "geometry": { "type": "Point", "coordinates": [ -81.689825890157337, 41.500769112911954 ] } }
+{ "type": "Feature", "properties": { "NAME": "crosses", "TRE": 56}, "geometry": { "type": "Point", "coordinates": [ -81.68314409426614, 41.501677953163366 ] } }
 ,
-{ "type": "Feature", "id": -486, "properties": { "osm_id": 2147483647, "type": "52", "name": "red door", "tre": 52 }, "geometry": { "type": "Point", "coordinates": [ -81.682805051776853, 41.505349192911574 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ropes", "TRE": 57}, "geometry": { "type": "Point", "coordinates": [ -81.679425165705396, 41.502673063431963 ] } }
 ,
-{ "type": "Feature", "id": -484, "properties": { "osm_id": 2147483647, "type": "30", "name": null, "tre": 30 }, "geometry": { "type": "Point", "coordinates": [ -81.69017569462514, 41.498933271787841 ] } }
+{ "type": "Feature", "properties": { "NAME": "Arch With White Streaks", "TRE": 58}, "geometry": { "type": "Point", "coordinates": [ -81.678574865145492, 41.499665826320438 ] } }
 ,
-{ "type": "Feature", "id": -482, "properties": { "osm_id": 2147483647, "type": "24", "name": null, "tre": 24 }, "geometry": { "type": "Point", "coordinates": [ -81.693663174791311, 41.496898101993523 ] } }
+{ "type": "Feature", "properties": { "NAME": "cadillac", "TRE": 59}, "geometry": { "type": "Point", "coordinates": [ -81.680655923720721, 41.503849815468094 ] } }
 ,
-{ "type": "Feature", "id": -480, "properties": { "osm_id": 2147483647, "type": "48", "name": null, "tre": 48 }, "geometry": { "type": "Point", "coordinates": [ -81.703616597632745, 41.499515837409895 ] } }
+{ "type": "Feature", "properties": { "NAME": "Asian Face", "TRE": 60}, "geometry": { "type": "Point", "coordinates": [ -81.700677547506828, 41.496128293807324 ] } }
 ,
-{ "type": "Feature", "id": -478, "properties": { "osm_id": 2147483647, "type": "114", "name": null, "tre": 114 }, "geometry": { "type": "Point", "coordinates": [ -81.703166590246781, 41.498014477847292 ] } }
+{ "type": "Feature", "properties": { "NAME": "those stupid roosters", "TRE": 61}, "geometry": { "type": "Point", "coordinates": [ -81.68212474352606, 41.506156030688828 ] } }
 ,
-{ "type": "Feature", "id": -476, "properties": { "osm_id": 2147483647, "type": "96", "name": null, "tre": 96 }, "geometry": { "type": "Point", "coordinates": [ -81.699769594611993, 41.496745263237571 ] } }
+{ "type": "Feature", "properties": { "NAME": "Lights With Leaves", "TRE": 62}, "geometry": { "type": "Point", "coordinates": [ -81.681117613694028, 41.505286612215983 ] } }
 ,
-{ "type": "Feature", "id": -474, "properties": { "osm_id": 2147483647, "type": "109", "name": null, "tre": 109 }, "geometry": { "type": "Point", "coordinates": [ -81.700808322795439, 41.496729482563346 ] } }
+{ "type": "Feature", "properties": { "NAME": "Angel", "TRE": 63}, "geometry": { "type": "Point", "coordinates": [ -81.698666380834652, 41.4972794723029 ] } }
 ,
-{ "type": "Feature", "id": -472, "properties": { "osm_id": 2147483647, "type": "102", "name": "annie", "tre": 102 }, "geometry": { "type": "Point", "coordinates": [ -81.692280841020548, 41.502090164966852 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ribbons", "TRE": 64}, "geometry": { "type": "Point", "coordinates": [ -81.689248027025442, 41.497046135374369 ] } }
 ,
-{ "type": "Feature", "id": -470, "properties": { "osm_id": 2147483647, "type": "73", "name": null, "tre": 73 }, "geometry": { "type": "Point", "coordinates": [ -81.692342455211261, 41.501957498498747 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Light", "TRE": 65}, "geometry": { "type": "Point", "coordinates": [ -81.688620009868316, 41.497888864968296 ] } }
 ,
-{ "type": "Feature", "id": -468, "properties": { "osm_id": 2147483647, "type": "39", "name": null, "tre": 39 }, "geometry": { "type": "Point", "coordinates": [ -81.692314103126691, 41.50294933711384 ] } }
+{ "type": "Feature", "properties": { "NAME": "License Plates", "TRE": 66}, "geometry": { "type": "Point", "coordinates": [ -81.691419831346124, 41.49951251429745 ] } }
 ,
-{ "type": "Feature", "id": -466, "properties": { "osm_id": 2147483647, "type": "3", "name": null, "tre": 3 }, "geometry": { "type": "Point", "coordinates": [ -81.679211270898378, 41.500502507011767 ] } }
+{ "type": "Feature", "properties": { "NAME": "arch with green door", "TRE": 67}, "geometry": { "type": "Point", "coordinates": [ -81.681503168132778, 41.498668722893072 ] } }
 ,
-{ "type": "Feature", "id": -464, "properties": { "osm_id": 2147483647, "type": "6", "name": null, "tre": 6 }, "geometry": { "type": "Point", "coordinates": [ -81.67915266712285, 41.502050808062585 ] } }
+{ "type": "Feature", "properties": { "NAME": "circle window with people", "TRE": 68}, "geometry": { "type": "Point", "coordinates": [ -81.687033865612932, 41.500063578590336 ] } }
 ,
-{ "type": "Feature", "id": -462, "properties": { "osm_id": 2147483647, "type": "57", "name": "Ropes", "tre": 57 }, "geometry": { "type": "Point", "coordinates": [ -81.679425165705425, 41.502673063431978 ] } }
+{ "type": "Feature", "properties": { "NAME": "Musical Note", "TRE": 69}, "geometry": { "type": "Point", "coordinates": [ -81.682578832702134, 41.500807876158603 ] } }
 ,
-{ "type": "Feature", "id": -460, "properties": { "osm_id": 2147483647, "type": "31", "name": null, "tre": 31 }, "geometry": { "type": "Point", "coordinates": [ -81.698248979716809, 41.498501240951668 ] } }
+{ "type": "Feature", "properties": { "NAME": "Building Etching", "TRE": 70}, "geometry": { "type": "Point", "coordinates": [ -81.687242584027615, 41.496713331004585 ] } }
 ,
-{ "type": "Feature", "id": -458, "properties": { "osm_id": 2147483647, "type": "15", "name": null, "tre": 15 }, "geometry": { "type": "Point", "coordinates": [ -81.6942285283302, 41.500509163693842 ] } }
+{ "type": "Feature", "properties": { "NAME": "View With Grass", "TRE": 71}, "geometry": { "type": "Point", "coordinates": [ -81.698138551788816, 41.507927496823221 ] } }
 ,
-{ "type": "Feature", "id": -456, "properties": { "osm_id": 2147483647, "type": "72", "name": null, "tre": 72 }, "geometry": { "type": "Point", "coordinates": [ -81.692819103718108, 41.499528555091665 ] } }
+{ "type": "Feature", "properties": { "NAME": "Above Sea Level", "TRE": 72}, "geometry": { "type": "Point", "coordinates": [ -81.69281910371808, 41.499528555091658 ] } }
 ,
-{ "type": "Feature", "id": -454, "properties": { "osm_id": 2147483647, "type": "7", "name": null, "tre": 7 }, "geometry": { "type": "Point", "coordinates": [ -81.692503483310006, 41.505382041618716 ] } }
+{ "type": "Feature", "properties": { "NAME": "512", "TRE": 73}, "geometry": { "type": "Point", "coordinates": [ -81.692342455211232, 41.501957498498733 ] } }
 ,
-{ "type": "Feature", "id": -452, "properties": { "osm_id": 2147483647, "type": "21", "name": null, "tre": 21 }, "geometry": { "type": "Point", "coordinates": [ -81.686309810584945, 41.496481856637651 ] } }
+{ "type": "Feature", "properties": { "NAME": "Glasses", "TRE": 74}, "geometry": { "type": "Point", "coordinates": [ -81.6982464142135, 41.502644285628712 ] } }
 ,
-{ "type": "Feature", "id": -450, "properties": { "osm_id": 2147483647, "type": "20", "name": "Bowling Pin", "tre": 20 }, "geometry": { "type": "Point", "coordinates": [ -81.690292610744223, 41.504650950260157 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Shutters", "TRE": 75}, "geometry": { "type": "Point", "coordinates": [ -81.703472264731658, 41.498789915971571 ] } }
 ,
-{ "type": "Feature", "id": -448, "properties": { "osm_id": 2147483647, "type": "68", "name": null, "tre": 68 }, "geometry": { "type": "Point", "coordinates": [ -81.687033865612946, 41.50006357859035 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Brick Arch", "TRE": 76}, "geometry": { "type": "Point", "coordinates": [ -81.699206196426658, 41.500274566349248 ] } }
 ,
-{ "type": "Feature", "id": -446, "properties": { "osm_id": 2147483647, "type": "55", "name": null, "tre": 55 }, "geometry": { "type": "Point", "coordinates": [ -81.686347255264664, 41.498450743824478 ] } }
+{ "type": "Feature", "properties": { "NAME": "Pavement Swirl", "TRE": 77}, "geometry": { "type": "Point", "coordinates": [ -81.689877225916561, 41.498778913401864 ] } }
 ,
-{ "type": "Feature", "id": -444, "properties": { "osm_id": 2147483647, "type": "59", "name": "cadillac", "tre": 59 }, "geometry": { "type": "Point", "coordinates": [ -81.680655923720735, 41.503849815468108 ] } }
+{ "type": "Feature", "properties": { "NAME": "B", "TRE": 78}, "geometry": { "type": "Point", "coordinates": [ -81.687074907458637, 41.498672532060674 ] } }
 ,
-{ "type": "Feature", "id": -440, "properties": { "osm_id": 2147483647, "type": "90", "name": null, "tre": 90 }, "geometry": { "type": "Point", "coordinates": [ -81.70033341753242, 41.489766342923055 ] } }
+{ "type": "Feature", "properties": { "NAME": "Blue Windows", "TRE": 79}, "geometry": { "type": "Point", "coordinates": [ -81.684414647496041, 41.499563623833012 ] } }
 ,
-{ "type": "Feature", "id": -438, "properties": { "osm_id": 2147483647, "type": "34", "name": null, "tre": 34 }, "geometry": { "type": "Point", "coordinates": [ -81.690260153559294, 41.499260609518657 ] } }
+{ "type": "Feature", "properties": { "NAME": "Pyramid", "TRE": 80}, "geometry": { "type": "Point", "coordinates": [ -81.691015217552149, 41.501380134421645 ] } }
 ,
-{ "type": "Feature", "id": -436, "properties": { "osm_id": 2147483647, "type": "74", "name": null, "tre": 74 }, "geometry": { "type": "Point", "coordinates": [ -81.698246414213514, 41.502644285628726 ] } }
+{ "type": "Feature", "properties": { "NAME": "Red Hand", "TRE": 81}, "geometry": { "type": "Point", "coordinates": [ -81.701810474918688, 41.494177081608342 ] } }
 ,
-{ "type": "Feature", "id": -434, "properties": { "osm_id": 2147483647, "type": "9", "name": null, "tre": 9 }, "geometry": { "type": "Point", "coordinates": [ -81.683983458365461, 41.501972870233566 ] } }
+{ "type": "Feature", "properties": { "NAME": "Balcony", "TRE": 82}, "geometry": { "type": "Point", "coordinates": [ -81.686810471025439, 41.507404943743225 ] } }
 ,
-{ "type": "Feature", "id": -432, "properties": { "osm_id": 2147483647, "type": "29", "name": null, "tre": 29 }, "geometry": { "type": "Point", "coordinates": [ -81.683574571033205, 41.502520848318426 ] } }
+{ "type": "Feature", "properties": { "NAME": "NY City", "TRE": 83}, "geometry": { "type": "Point", "coordinates": [ -81.692256658909031, 41.500783021107573 ] } }
 ,
-{ "type": "Feature", "id": -430, "properties": { "osm_id": 2147483647, "type": "56", "name": null, "tre": 56 }, "geometry": { "type": "Point", "coordinates": [ -81.683144094266154, 41.501677953163373 ] } }
+{ "type": "Feature", "properties": { "NAME": "The Ribbon", "TRE": 84}, "geometry": { "type": "Point", "coordinates": [ -81.690330375793053, 41.499884223773876 ] } }
 ,
-{ "type": "Feature", "id": -428, "properties": { "osm_id": 2147483647, "type": "5", "name": null, "tre": 5 }, "geometry": { "type": "Point", "coordinates": [ -81.682919639959934, 41.500268602214206 ] } }
+{ "type": "Feature", "properties": { "NAME": "Square O", "TRE": 85}, "geometry": { "type": "Point", "coordinates": [ -81.689541786396177, 41.499995770968418 ] } }
 ,
-{ "type": "Feature", "id": -426, "properties": { "osm_id": 2147483647, "type": "11", "name": "Wheezing", "tre": 11 }, "geometry": { "type": "Point", "coordinates": [ -81.700872076535944, 41.488800627834678 ] } }
+{ "type": "Feature", "properties": { "NAME": "Gold Gridwork", "TRE": 86}, "geometry": { "type": "Point", "coordinates": [ -81.689166470667516, 41.500719336780243 ] } }
 ,
-{ "type": "Feature", "id": -424, "properties": { "osm_id": 2147483647, "type": "49", "name": null, "tre": 49 }, "geometry": { "type": "Point", "coordinates": [ -81.701461421248439, 41.495035063475498 ] } }
+{ "type": "Feature", "properties": { "NAME": "Ugly Baby", "TRE": 87}, "geometry": { "type": "Point", "coordinates": [ -81.689825890157323, 41.500769112911939 ] } }
 ,
-{ "type": "Feature", "id": -422, "properties": { "osm_id": 2147483647, "type": "75", "name": null, "tre": 75 }, "geometry": { "type": "Point", "coordinates": [ -81.703472264731687, 41.498789915971585 ] } }
+{ "type": "Feature", "properties": { "NAME": "Idea", "TRE": 88}, "geometry": { "type": "Point", "coordinates": [ -81.681899481768525, 41.501022327609029 ] } }
 ,
-{ "type": "Feature", "id": -420, "properties": { "osm_id": 2147483647, "type": "45", "name": "curly boy", "tre": 45 }, "geometry": { "type": "Point", "coordinates": [ -81.698095692104161, 41.502573339395795 ] } }
+{ "type": "Feature", "properties": { "NAME": "OK", "TRE": 89}, "geometry": { "type": "Point", "coordinates": [ -81.681885306146924, 41.500713427211807 ] } }
 ,
-{ "type": "Feature", "id": -418, "properties": { "osm_id": 2147483647, "type": "60", "name": "Asian Face", "tre": 60 }, "geometry": { "type": "Point", "coordinates": [ -81.700677547506857, 41.496128293807338 ] } }
+{ "type": "Feature", "properties": { "NAME": "Peacock", "TRE": 90}, "geometry": { "type": "Point", "coordinates": [ -81.700333417532391, 41.489766342923041 ] } }
 ,
-{ "type": "Feature", "id": -416, "properties": { "osm_id": 2147483647, "type": "23", "name": null, "tre": 23 }, "geometry": { "type": "Point", "coordinates": [ -81.699415789135372, 41.49688480393695 ] } }
+{ "type": "Feature", "properties": { "NAME": "Light With Brick And Stone", "TRE": 91}, "geometry": { "type": "Point", "coordinates": [ -81.700242759757444, 41.500123570550741 ] } }
 ,
-{ "type": "Feature", "id": -414, "properties": { "osm_id": 2147483647, "type": "63", "name": null, "tre": 63 }, "geometry": { "type": "Point", "coordinates": [ -81.698666380834666, 41.497279472302907 ] } }
+{ "type": "Feature", "properties": { "NAME": "Race Car", "TRE": 92}, "geometry": { "type": "Point", "coordinates": [ -81.688337957229919, 41.509289737581888 ] } }
 ,
-{ "type": "Feature", "id": -412, "properties": { "osm_id": 2147483647, "type": "22", "name": null, "tre": 22 }, "geometry": { "type": "Point", "coordinates": [ -81.694765179491938, 41.497724068552927 ] } }
+{ "type": "Feature", "properties": { "NAME": "Garbage Can", "TRE": 93}, "geometry": { "type": "Point", "coordinates": [ -81.687919417302652, 41.497470144787492 ] } }
 ,
-{ "type": "Feature", "id": -410, "properties": { "osm_id": 2147483647, "type": "33", "name": null, "tre": 33 }, "geometry": { "type": "Point", "coordinates": [ -81.694793106332526, 41.497727412840106 ] } }
+{ "type": "Feature", "properties": { "NAME": "S.T.", "TRE": 94}, "geometry": { "type": "Point", "coordinates": [ -81.698997538330161, 41.497015138007754 ] } }
 ,
-{ "type": "Feature", "id": -408, "properties": { "osm_id": 2147483647, "type": "14", "name": null, "tre": 14 }, "geometry": { "type": "Point", "coordinates": [ -81.692693968116785, 41.50175053508265 ] } }
+{ "type": "Feature", "properties": { "NAME": "Angled Gridwork", "TRE": 95}, "geometry": { "type": "Point", "coordinates": [ -81.692446908938635, 41.501600998334546 ] } }
 ,
-{ "type": "Feature", "id": -406, "properties": { "osm_id": 2147483647, "type": "36", "name": null, "tre": 36 }, "geometry": { "type": "Point", "coordinates": [ -81.685412145432053, 41.49913592201036 ] } }
+{ "type": "Feature", "properties": { "NAME": "Toasted", "TRE": 96}, "geometry": { "type": "Point", "coordinates": [ -81.699769594611979, 41.496745263237564 ] } }
 ,
-{ "type": "Feature", "id": -404, "properties": { "osm_id": 2147483647, "type": "28", "name": null, "tre": 28 }, "geometry": { "type": "Point", "coordinates": [ -81.686989109495116, 41.49640487915957 ] } }
+{ "type": "Feature", "properties": { "NAME": "Green Awning", "TRE": 97}, "geometry": { "type": "Point", "coordinates": [ -81.70057075206887, 41.493030895824511 ] } }
 ,
-{ "type": "Feature", "id": -402, "properties": { "osm_id": 2147483647, "type": "71", "name": null, "tre": 71 }, "geometry": { "type": "Point", "coordinates": [ -81.69813855178883, 41.507927496823228 ] } }
+{ "type": "Feature", "properties": { "NAME": "Pineapple", "TRE": 98}, "geometry": { "type": "Point", "coordinates": [ -81.688391939931748, 41.499882279230043 ] } }
 ,
-{ "type": "Feature", "id": -400, "properties": { "osm_id": 2147483647, "type": "46", "name": "Red Metal Flames", "tre": 46 }, "geometry": { "type": "Point", "coordinates": [ -81.695284508409515, 41.509383172099234 ] } }
+{ "type": "Feature", "properties": { "NAME": "Arched Reflection", "TRE": 99}, "geometry": { "type": "Point", "coordinates": [ -81.688891889157645, 41.506158680560304 ] } }
 ,
-{ "type": "Feature", "id": -398, "properties": { "osm_id": 2147483647, "type": "69", "name": null, "tre": 69 }, "geometry": { "type": "Point", "coordinates": [ -81.682578832702148, 41.500807876158611 ] } }
+{ "type": "Feature", "properties": { "NAME": "Fashion", "TRE": 100}, "geometry": { "type": "Point", "coordinates": [ -81.684001122541417, 41.500488709790034 ] } }
 ,
-{ "type": "Feature", "id": -396, "properties": { "osm_id": 2147483647, "type": "88", "name": "Idea", "tre": 88 }, "geometry": { "type": "Point", "coordinates": [ -81.681899481768539, 41.501022327609036 ] } }
+{ "type": "Feature", "properties": { "NAME": "RE", "TRE": 101}, "geometry": { "type": "Point", "coordinates": [ -81.68224210042429, 41.503192112516778 ] } }
 ,
-{ "type": "Feature", "id": -394, "properties": { "osm_id": 2147483647, "type": "89", "name": null, "tre": 89 }, "geometry": { "type": "Point", "coordinates": [ -81.681885306146938, 41.500713427211814 ] } }
+{ "type": "Feature", "properties": { "NAME": "annie", "TRE": 102}, "geometry": { "type": "Point", "coordinates": [ -81.692280841020533, 41.502090164966837 ] } }
 ,
-{ "type": "Feature", "id": -392, "properties": { "osm_id": 2147483647, "type": "2", "name": null, "tre": 2 }, "geometry": { "type": "Point", "coordinates": [ -81.68382429929737, 41.499932072888711 ] } }
+{ "type": "Feature", "properties": { "NAME": "Lots of Flowers", "TRE": 103}, "geometry": { "type": "Point", "coordinates": [ -81.685683505547999, 41.497355089702793 ] } }
 ,
-{ "type": "Feature", "id": -390, "properties": { "osm_id": 2147483647, "type": "65", "name": null, "tre": 65 }, "geometry": { "type": "Point", "coordinates": [ -81.688620009868345, 41.497888864968303 ] } }
+{ "type": "Feature", "properties": { "NAME": "West Street", "TRE": 104}, "geometry": { "type": "Point", "coordinates": [ -81.703439011050548, 41.491873712265594 ] } }
 ,
-{ "type": "Feature", "id": -388, "properties": { "osm_id": 2147483647, "type": "77", "name": null, "tre": 77 }, "geometry": { "type": "Point", "coordinates": [ -81.68987722591659, 41.498778913401878 ] } }
+{ "type": "Feature", "properties": { "NAME": "Coco Cola", "TRE": 105}, "geometry": { "type": "Point", "coordinates": [ -81.690415886012659, 41.511302364350428 ] } }
 ,
-{ "type": "Feature", "id": -386, "properties": { "osm_id": 2147483647, "type": "25", "name": null, "tre": 25 }, "geometry": { "type": "Point", "coordinates": [ -81.686215422466034, 41.498100450770728 ] } }
+{ "type": "Feature", "properties": { "NAME": "Buckle", "TRE": 106}, "geometry": { "type": "Point", "coordinates": [ -81.68451794466921, 41.497094925593935 ] } }
 ,
-{ "type": "Feature", "id": -384, "properties": { "osm_id": 2147483647, "type": "67", "name": "arch with green door", "tre": 67 }, "geometry": { "type": "Point", "coordinates": [ -81.681503168132792, 41.498668722893086 ] } }
+{ "type": "Feature", "properties": { "NAME": "Baker", "TRE": 107}, "geometry": { "type": "Point", "coordinates": [ -81.689456876639639, 41.497659404552458 ] } }
 ,
-{ "type": "Feature", "id": -382, "properties": { "osm_id": 2147483647, "type": "53", "name": null, "tre": 53 }, "geometry": { "type": "Point", "coordinates": [ -81.688984944069361, 41.499381736917904 ] } }
+{ "type": "Feature", "properties": { "NAME": "Squished Bear", "TRE": 108}, "geometry": { "type": "Point", "coordinates": [ -81.688386185683171, 41.500166717832059 ] } }
 ,
-{ "type": "Feature", "id": -380, "properties": { "osm_id": 2147483647, "type": "92", "name": "Race Car", "tre": 92 }, "geometry": { "type": "Point", "coordinates": [ -81.688337957229933, 41.509289737581895 ] } }
+{ "type": "Feature", "properties": { "NAME": "Street", "TRE": 109}, "geometry": { "type": "Point", "coordinates": [ -81.70080832279541, 41.496729482563339 ] } }
 ,
-{ "type": "Feature", "id": -378, "properties": { "osm_id": 2147483647, "type": "112", "name": null, "tre": 112 }, "geometry": { "type": "Point", "coordinates": [ -81.685046347993264, 41.499234497027366 ] } }
+{ "type": "Feature", "properties": { "NAME": "Flower Swoop", "TRE": 110}, "geometry": { "type": "Point", "coordinates": [ -81.686578832267614, 41.501305419911624 ] } }
 ,
-{ "type": "Feature", "id": -376, "properties": { "osm_id": 2147483647, "type": "78", "name": "B", "tre": 78 }, "geometry": { "type": "Point", "coordinates": [ -81.687074907458666, 41.498672532060688 ] } }
+{ "type": "Feature", "properties": { "NAME": "Swoops", "TRE": 111}, "geometry": { "type": "Point", "coordinates": [ -81.687223404453334, 41.498244092957641 ] } }
 ,
-{ "type": "Feature", "id": -374, "properties": { "osm_id": 2147483647, "type": "104", "name": null, "tre": 104 }, "geometry": { "type": "Point", "coordinates": [ -81.703439011050577, 41.491873712265608 ] } }
+{ "type": "Feature", "properties": { "NAME": "Blurry Ferns", "TRE": 112}, "geometry": { "type": "Point", "coordinates": [ -81.68504634799325, 41.499234497027359 ] } }
 ,
-{ "type": "Feature", "id": -372, "properties": { "osm_id": 2147483647, "type": "107", "name": "Baker", "tre": 107 }, "geometry": { "type": "Point", "coordinates": [ -81.689456876639653, 41.497659404552465 ] } }
+{ "type": "Feature", "properties": { "NAME": "Silver and Gold Octogon", "TRE": 113}, "geometry": { "type": "Point", "coordinates": [ -81.693844009744538, 41.497308994722204 ] } }
 ,
-{ "type": "Feature", "id": -370, "properties": { "osm_id": 2147483647, "type": "37", "name": "To the Pioneers", "tre": 37 }, "geometry": { "type": "Point", "coordinates": [ -81.680655211719184, 41.501172342027743 ] } }
+{ "type": "Feature", "properties": { "NAME": "Unibrow", "TRE": 114}, "geometry": { "type": "Point", "coordinates": [ -81.703166590246767, 41.498014477847278 ] } }
 ,
-{ "type": "Feature", "id": -368, "properties": { "osm_id": 2147483647, "type": "44", "name": null, "tre": 44 }, "geometry": { "type": "Point", "coordinates": [ -81.682454618798829, 41.497347548459786 ] } }
+{ "type": "Feature", "properties": { "NAME": "Alex", "TRE": 115}, "geometry": { "type": "Point", "coordinates": [ -81.701564384113354, 41.495406437113473 ] } }
 ,
-{ "type": "Feature", "id": -366, "properties": { "osm_id": 2147483647, "type": "61", "name": "those stupid roosters", "tre": 61 }, "geometry": { "type": "Point", "coordinates": [ -81.682124743526074, 41.506156030688842 ] } }
+{ "type": "Feature", "properties": { "NAME": "Barbed Wire", "TRE": 116}, "geometry": { "type": "Point", "coordinates": [ -81.689930242664218, 41.492696927585662 ] } }
 ,
-{ "type": "Feature", "id": -364, "properties": { "osm_id": 2147483647, "type": "64", "name": null, "tre": 64 }, "geometry": { "type": "Point", "coordinates": [ -81.689248027025471, 41.497046135374383 ] } }
+{ "type": "Feature", "properties": { "NAME": "Attendant", "TRE": 117}, "geometry": { "type": "Point", "coordinates": [ -81.684878890387125, 41.500384135124222 ] } }
 ,
-{ "type": "Feature", "id": -362, "properties": { "osm_id": 2147483647, "type": "70", "name": null, "tre": 70 }, "geometry": { "type": "Point", "coordinates": [ -81.687242584027643, 41.496713331004592 ] } }
+{ "type": "Feature", "properties": { "NAME": "Faded Company", "TRE": 118}, "geometry": { "type": "Point", "coordinates": [ -81.689577382510961, 41.493771744521688 ] } }
 ,
-{ "type": "Feature", "id": -360, "properties": { "osm_id": 2147483647, "type": "76", "name": null, "tre": 76 }, "geometry": { "type": "Point", "coordinates": [ -81.699206196426672, 41.500274566349255 ] } }
+{ "type": "Feature", "properties": { "NAME": "Window That Used To Be", "TRE": 119}, "geometry": { "type": "Point", "coordinates": [ -81.689870722845129, 41.498065616492113 ] } }
 ,
-{ "type": "Feature", "id": -358, "properties": { "osm_id": 2147483647, "type": "83", "name": null, "tre": 83 }, "geometry": { "type": "Point", "coordinates": [ -81.692256658909045, 41.500783021107587 ] } }
+{ "type": "Feature", "properties": { "NAME": "7", "TRE": 120}, "geometry": { "type": "Point", "coordinates": [ -81.703148232380457, 41.49411636223968 ] } }
 ,
-{ "type": "Feature", "id": -356, "properties": { "osm_id": 2147483647, "type": "86", "name": "gold gridwork", "tre": 86 }, "geometry": { "type": "Point", "coordinates": [ -81.68916647066753, 41.50071933678025 ] } }
+{ "type": "Feature", "properties": { "NAME": "Beige Arch", "TRE": 121}, "geometry": { "type": "Point", "coordinates": [ -81.684657505116306, 41.50663493863572 ] } }
 ,
-{ "type": "Feature", "id": -354, "properties": { "osm_id": 2147483647, "type": "91", "name": null, "tre": 91 }, "geometry": { "type": "Point", "coordinates": [ -81.700242759757458, 41.500123570550755 ] } }
+{ "type": "Feature", "properties": { "NAME": "Fleur-de-lis-ish", "TRE": 122}, "geometry": { "type": "Point", "coordinates": [ -81.697289259776738, 41.50374087303706 ] } }
 ,
-{ "type": "Feature", "id": -352, "properties": { "osm_id": 2147483647, "type": "79", "name": null, "tre": 79 }, "geometry": { "type": "Point", "coordinates": [ -81.684414647496055, 41.499563623833026 ] } }
+{ "type": "Feature", "properties": { "NAME": "Arches", "TRE": 123}, "geometry": { "type": "Point", "coordinates": [ -81.685887531460381, 41.499592150522183 ] } }
 ,
-{ "type": "Feature", "id": -350, "properties": { "osm_id": 2147483647, "type": "81", "name": null, "tre": 81 }, "geometry": { "type": "Point", "coordinates": [ -81.701810474918702, 41.494177081608356 ] } }
+{ "type": "Feature", "properties": { "NAME": "Grapes", "TRE": 124}, "geometry": { "type": "Point", "coordinates": [ -81.682333923876214, 41.497896849918078 ] } }
 ,
-{ "type": "Feature", "id": -348, "properties": { "osm_id": 2147483647, "type": "123", "name": "Arches", "tre": 123 }, "geometry": { "type": "Point", "coordinates": [ -81.685887531460395, 41.49959215052219 ] } }
+{ "type": "Feature", "properties": { "NAME": "G", "TRE": 125}, "geometry": { "type": "Point", "coordinates": [ -81.697387090694079, 41.49793927664809 ] } }
 
 ]
 }
