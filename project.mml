@@ -13,7 +13,7 @@
   "format": "png8",
   "interactivity": {
     "layer": "locations",
-    "template_teaser": "Name: <strong>{{{name}}}</strong><br>\nPhoto #: <strong>{{{tre}}}</strong> <br>\n<img src=\"{{imgurl}}\">",
+    "template_teaser": "<style>\n.map-tooltip {\n max-width:400px !important;\n}\n</style>\n\nName: <strong>{{{name}}}</strong><br>\nPhoto #: <strong>{{{tre}}}</strong> <br>\n<img src=\"{{imgurl}}\">\n",
     "fields": [
       "name",
       "tre",
