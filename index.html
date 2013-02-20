@@ -34,18 +34,7 @@
   font-size:10px;
   text-decoration:none;
   }
-#timeline #controls {
-  position:absolute;
-  top:15px;
-  }
-#timeline #controls a {
-  font-size:20px;
-  color:#DC1438;
-  margin-left:10px;
-  }
-a.year-active {
-  color:#DC1438;
-  }
+
   </style>
 <div id='sidebar'>
   <div id='timeline'>
@@ -64,7 +53,6 @@ a.year-active {
   map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
   map.setZoomRange(15, 19);
   var timeline = document.getElementById('timeline'),
-      controls = document.getElementById('controls');
   var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
   function(err, features) {
       var interaction = mapbox.markers.interaction(markerLayer);
