@@ -52,7 +52,7 @@
 }));
   map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
   map.setZoomRange(15, 19);
-  var timeline = document.getElementById('timeline'),
+  var timeline = document.getElementById('timeline'); 
   var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
   function(err, features) {
       var interaction = mapbox.markers.interaction(markerLayer);
