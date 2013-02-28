@@ -53,16 +53,14 @@
   map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
   map.setZoomRange(15, 19);
   var timeline = document.getElementById('timeline'); 
-  var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
+    var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
   function(err, features) {
       var interaction = mapbox.markers.interaction(markerLayer);
       map.addLayer(markerLayer);
       var years = {}, // ob
       trelist = []; // array
 
-
-
-      for (var i = 0; i < features.length; i++) {
+      for (var i = 1; i < features.length; i++) {
           years[features[i].properties.tre] = true;
           trelist.push(i);
       }
@@ -70,7 +68,8 @@
     markerLayer.filter(function() { return false; });
 
       for (var i = 0; i < trelist.length; i++) {
-          var a = timeline.appendChild(document.createElement('a'));
+        if (i !== 40) {
+        var a = timeline.appendChild(document.createElement('a'));
           a.onclick = (function(feature) {
               return function() {
                   map.ease.location({
@@ -82,8 +81,13 @@
           a.innerHTML = trelist[i] + ' ';
           a.id = 'y' + trelist[i];
           a.href = '#'; // from http://bl.ocks.org/4286289
+        }  
+        else {
+         // return nothing
+        }  
       }
-  });
+  }
+  );
   map.ui.attribution.add()
   .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
 
