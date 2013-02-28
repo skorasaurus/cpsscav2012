@@ -1,97 +1,93 @@
-
-
 <!DOCTYPE html>
 <html>
-<head>
-
-  <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
-  <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
-  <style>
-    body { margin:0; padding:0; }
-     #mapsetup {position:absolute; top:0; bottom:0; width:100%; }
-
-</style>
-</head>
-<body>
-<style>
-   /*SIDEBAR - where the list of markers will be */
-   /*from http://mapbox.com/mapbox.js/example/timeline/ */
-#sidebar {
-  position:absolute;
-  top:0px;
-  left:0px;
-  background:#fff;
-  z-index:999;
-  overflow:auto;
-  opacity:0.6;
-  }
-#sidebar:hover { opacity:1; }
-#timeline {
-  padding:10px;
-  right:15px;
-  }
-#timeline a {
-  font-size:10px;
-  text-decoration:none;
-  }
-
-  </style>
-<div id='sidebar'>
-  <div id='timeline'>
-    <h2>Cleveland Photography Society's 2012 Photo Scavenger Hunt <small>Presented by: Sponsors</small></h2>
-  </div>
-</div>
-<div id='mapsetup'></div>
-<script>
- // http://mapbox.com/mapbox.js/example/interactive-layer-mapbox-layer/
-    var map = mapbox.map('mapsetup');
-    map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012', function() {
-    // this function runs after the layer examples.map-8ced9urs is loaded
-    // from MapBox and we know what interactive features are supported.
-    map.interaction.auto();
-}));
-  map.zoom(15).center({ lat: 41.5010, lon: -81.6922 });
-  map.setZoomRange(15, 19);
-  var timeline = document.getElementById('timeline'); 
-    var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson',
-  function(err, features) {
-      var interaction = mapbox.markers.interaction(markerLayer);
-      map.addLayer(markerLayer);
-      var years = {}, // ob
-      trelist = []; // array
-
-      for (var i = 1; i < features.length; i++) {
-          years[features[i].properties.tre] = true;
-          trelist.push(i);
+  
+  <head>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
+    <style>
+      body {
+        margin:0;
+        padding:0;
       }
+      #mapsetup {
+        position:absolute;
+        top:0;
+        bottom:0;
+        width:100%;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <style>
+      /*SIDEBAR - where the list of markers will be */
+      /*from http://mapbox.com/mapbox.js/example/timeline/ */
+      #sidebar {
+        position:absolute;
+        top:0px;
+        left:0px;
+        background:#fff;
+        z-index:999;
+        overflow:auto;
+        opacity:0.6;
+      }
+      #sidebar:hover {
+        opacity:1;
+      }
+      #location-list {
+        padding:10px;
+        right:15px;
+      }
+      #location-list a {
+        font-size:10px;
+        text-decoration:none;
+      }
+    </style>
+    <div id='sidebar'>
+      <div id='location-list'>
+        
+<h2>Cleveland Photography Society's 2012 Photo Scavenger Hunt <small>Presented by: Sponsors</small></h2>
 
-    markerLayer.filter(function() { return false; });
-
-      for (var i = 0; i < trelist.length; i++) {
-        if (i !== 40) {
-        var a = timeline.appendChild(document.createElement('a'));
-          a.onclick = (function(feature) {
-              return function() {
-                  map.ease.location({
-                      lat: feature.geometry.coordinates[1],
-                      lon: feature.geometry.coordinates[0]
-                  }).zoom(17).optimal();
-              };
+      </div>
+    </div>
+    <div id='mapsetup'></div>
+    <script>
+      // http://mapbox.com/mapbox.js/example/interactive-layer-mapbox-layer/
+      var map = mapbox.map('mapsetup');
+      map.addLayer(mapbox.layer().id('skorasaurus.cpsscav2012', function () {
+        // this function runs after the layer examples.map-8ced9urs is loaded
+        // from MapBox and we know what interactive features are supported.
+        map.interaction.auto();
+      }));
+      map.zoom(15).center({
+        lat: 41.5010,
+        lon: -81.6922
+      });
+      map.setZoomRange(15, 19);
+      var locationList = document.getElementById('location-list');
+      var markerLayer = mapbox.markers.layer().url('../layers/locations.geojson', function testing(err, features) {
+        var i, len, el, trelist;
+        trelist = [];
+        for (i = 0, len = features.length; i < len; i++) {
+          // years[features[i].properties.tre] = true;
+          index = (i < 40) ? i : i + 1;
+          el = locationList.appendChild(document.createElement('a'));
+          el.onclick = (function (feature) {
+            return function () {
+              map.ease.location({
+                lat: feature.geometry.coordinates[1],
+                lon: feature.geometry.coordinates[0]
+              }).zoom(17).optimal();
+            };
           })(features[i]);
-          a.innerHTML = trelist[i] + ' ';
-          a.id = 'y' + trelist[i];
-          a.href = '#'; // from http://bl.ocks.org/4286289
-        }  
-        else {
-         // return nothing
-        }  
-      }
-  }
-  );
-  map.ui.attribution.add()
-  .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
+          el.innerHTML = (index + 1) + ' ';
+          el.id = 'y' + (index + 1);
+          el.href = '#'; // from http://bl.ocks.org/4286289
+        }
+      });
+      map.ui.attribution.add()
+        .content('<a href="http://mapbox.com/about/maps">MapBox Terms &amp; Feedback</a> ');
+    </script>
+  </body>
 
-</script>
-</body>
 </html>
-
