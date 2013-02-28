@@ -81,7 +81,10 @@
 { "type": "Feature", "properties": { "NAME": "Cleveland 1796", "TRE": 39}, "geometry": { "type": "Point", "coordinates": [ -81.692314103126662, 41.502949337113833 ] } }
 ,
 { "type": "Feature", "properties": { "NAME": "Red Flower", "TRE": 40}, "geometry": { "type": "Point", "coordinates": [ -81.688416056702494, 41.498668839280612 ] } }
+
 ,
+{ "type": "Feature", "properties": { "NAME": "DOUBLE", "TRE": 41}, "geometry": { "type": "Point", "coordinates": [ -81.6862651468699, 41.49849876201305 ] } },
+
 { "type": "Feature", "properties": { "NAME": "Ribbon Face", "TRE": 42}, "geometry": { "type": "Point", "coordinates": [ -81.6862651468699, 41.49849876201305 ] } }
 ,
 { "type": "Feature", "properties": { "NAME": "Trombone", "TRE": 43}, "geometry": { "type": "Point", "coordinates": [ -81.691191830535388, 41.506558837439222 ] } }
