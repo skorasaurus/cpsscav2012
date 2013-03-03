@@ -1,16 +1,20 @@
-CPS Scavenger Hunt 2012 Map by Will Skora (skorasaurus) 
+CPS Photo Scavenger Hunt 2012 Map by Will Skora (skorasaurus) 
 https://github.com/skorasaurus/cpsscav2012
 
-Cleveland Photography Society Scavenger Hunt 2012 - http://photos.clevelandphoto.org/
+Cleveland Photography Society Photo Scavenger Hunt 2012 - http://photos.clevelandphoto.org/
 
 Map viewable at http://tiles.mapbox.com/skorasaurus/map/cpsscav2012
 
-Markers are placed where the photograph was taken, not necessarily where the photographed object is physically located. 
+Markers are placed where the photograph was taken. This may not be the same location of the photographed object.
 
-Styled in Carto w/ Tilemill
+About the Cleveland Photography Society Photo Scavenger Hunt 2012:
+ During Daylight Savings Time in 2012, the Cleveland Photography Society conducted their inaugeral Photo Scavenger Hunt. 125 objects in Downtown Cleveland were photographed. With a small image as the only hint, participants had to find the location and replicate the original photograph as much as possible.  
 
-Uses: Mapbox.js, [Wax](http://mapbox.com/wax/), ModestMaps, osm-bright, 
+
+Made with: Tilemill, uses OpenStreetMap data. 
+
+Uses: Mapbox.js
 
 
-http://mapbox.com/mapbox.js/example/linking-to-external-data/ 
+
 

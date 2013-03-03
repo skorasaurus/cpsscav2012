@@ -69,8 +69,8 @@ background-color: #aaa;
  * - fill: for higher zoomlevels, this color is for the road's
  *         inner fill (inline).
  */
-
-@motorway_line:     #806311;
+   /* was 806311 */
+@motorway_line:     #FCE761;
 @motorway_fill:     lighten(@motorway_line,5%);
 @motorway_case:     @motorway_line * 0.9;
 
@@ -82,11 +82,11 @@ background-color: #aaa;
 @primary_fill:      lighten(@motorway_line,20%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    #FFE873;
+@secondary_line:   #FCE761;
 @secondary_fill:    lighten(@motorway_line,20%);
 @secondary_case:    @motorway_line * 0.9;
 
-@tertiary_line:    #FFE873;
+@tertiary_line:    #FCE761;
 @tertiary_fill:    lighten(@motorway_line,20%);
 @tertiary_case:    @motorway_line * 0.9;
 
