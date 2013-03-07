@@ -10,11 +10,14 @@
 /* LANDUSE & LANDCOVER
 /* ================================================================== */
 
+
+
 #land[zoom>=0][zoom<6],
 #shoreline_300[zoom>=6][zoom<10],
 #processed_p[zoom>=10] {
   polygon-fill: @land;
-  polygon-gamma: 0.75;
+  polygon-gamma: 0.05;
+  polygon-opacity:0.98;
 }
 
 #landuse_gen0[zoom>3][zoom<=9],
@@ -214,3 +217,9 @@ Map { background-color: @water; }
   image-filters:agg-stack-blur(10,10);
   comp-op:dst-atop;
     }
+
+#testingland {
+polygon-pattern-file:url(./paper.png);
+polygon-opacity:0.4;
+polygon-comp-op: color;  
+} 

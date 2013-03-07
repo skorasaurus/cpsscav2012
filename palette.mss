@@ -19,7 +19,10 @@
 
 /* directory to load fonts from in addition to the system directories */
 Map { 
+  /* background-image:url("./100_Patterns/pattern_042.png");
+*/
 background-color: #aaa;
+  
  font-directory: url(./fonts); }
 
 /* set up font sets for various weights and styles */
